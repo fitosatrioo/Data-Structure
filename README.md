@@ -3,5 +3,5 @@
 <pre>
 Nama : Fito Satrio
 NIM : 2311110030
-Kelas : S1SD04-B
+Kelas : S1SD04-B 
 </pre>
