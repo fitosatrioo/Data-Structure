@@ -28,7 +28,7 @@ Tipe data sebuah tipe data yang didefinisikan oleh cara operasi-operasinya beker
 ### 3. Tipe Data Koleksi
 tipe data koleksi merupakan kumpulan data yang terdiri dari beberapa elemen atau nilai yang terkait satu sama lain dan diorganisir dalam suatu struktur tertentu. Struktur data koleksi memungkinkan untuk menyimpan, mengakses, dan memanipulasi sejumlah besar data dengan cara yang teratur dan rapih. Berikut contoh jenis data pada tipe data koleksi yang dipelajafi pada materi kali imi:
 
-- Array: Merupakan Kumpulan elemen dengan tipe data yang sama, diatur dalam urutan tertentu. indeks pada array dimulai dari 0.
+- Array: Merupakan Kumpulan elemen dengan tipe data yang sama, diatur dalam urutan tertentu. Deklarasi dari suatu array memberitahu kompiler berapa jumlah elemen yang dikandung oleh array dan tipe data tersebut [3]. indeks pada array dimulai dari 0.
 - Vector: Tipe data ini hampir sama denagn array. Salah satu perbedaannya adalah jumlah elemen pada vector bisa bertambah lebih dari kapasitas yang sudah ditentukan.
 - Map:  Merupakan Kumpulan pasangan kunci-nilai, di mana setiap kunci terkait dengan nilai tertentu dan bisa menyimpan lebih dari satu tipe data.
 
@@ -336,3 +336,5 @@ Dalam tipe data memiliki tiga jenis yaitu tipe data primitif, tipe data abstrak,
 [1] Dr. Irmawati, Augury El Rayeb, Carudin, Budanis Dwi Mellani, Apriyanto Halim, Dr. Tutuk Indrayani, et al, "BUKU AJAR PEMROGRAMAN". PT. Sonpedia Publishing Indonesia, 2023.
 
 [2] Raden Budiarto Hadiprakoso, "Pemrograman Berorientasi Objek Teori dan implementasi dengan Java", RBH, 2021
+
+[3] Ema Utami, Sukrisno, "10 Langkah Belajar Logika dan Algoritma. menggunakan Bahasa C dan C++ di GnuLlinux", ANDI OFFSET, 2005
