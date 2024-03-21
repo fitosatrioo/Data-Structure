@@ -210,7 +210,7 @@ int main() {
 
 ![Screenshot (1080)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/10efef45-f7ba-4f59-a49b-36a7cf9e6c0e)
 
-## Full Screenshoot Code
+### Full Screenshoot Code
 
 
 <p><b>Penjelasan:</b></p>
