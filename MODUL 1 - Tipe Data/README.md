@@ -28,7 +28,7 @@ Tipe data sebuah tipe data yang didefinisikan oleh cara operasi-operasinya beker
 ### 3. Tipe Data Koleksi
 tipe data koleksi merupakan kumpulan data yang terdiri dari beberapa elemen atau nilai yang terkait satu sama lain dan diorganisir dalam suatu struktur tertentu. Struktur data koleksi memungkinkan untuk menyimpan, mengakses, dan memanipulasi sejumlah besar data dengan cara yang teratur dan rapih. Berikut contoh jenis data pada tipe data koleksi yang dipelajafi pada materi kali imi:
 
-- Array: Merupakan Kumpulan elemen dengan tipe data yang sama, diatur dalam urutan tertentu. indeks pada array dimulai dari 0.
+- Array: Merupakan Kumpulan elemen dengan tipe data yang sama, diatur dalam urutan tertentu. Deklarasi dari suatu array memberitahu kompiler berapa jumlah elemen yang dikandung oleh array dan tipe data tersebut [3]. indeks pada array dimulai dari 0.
 - Vector: Tipe data ini hampir sama denagn array. Salah satu perbedaannya adalah jumlah elemen pada vector bisa bertambah lebih dari kapasitas yang sudah ditentukan.
 - Map:  Merupakan Kumpulan pasangan kunci-nilai, di mana setiap kunci terkait dengan nilai tertentu dan bisa menyimpan lebih dari satu tipe data.
 
@@ -208,8 +208,11 @@ int main() {
 ```
 #### Output:
 
-![Screenshot (1080)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/12e2f3c8-18f5-4baf-98c7-6c768266b6ae)
+![Screenshot (1080)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/10efef45-f7ba-4f59-a49b-36a7cf9e6c0e)
 
+#### Full Screenshoot Code:
+
+![Screenshot (1137)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/0f875934-bda5-453d-afe5-49534004b961)
 
 <p><b>Penjelasan:</b></p>
 
@@ -278,7 +281,11 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot (1081)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/b7901235-96b7-42d6-a1ea-b71caf437a78)
+![Screenshot (1081)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/ea49e19e-eba3-4598-8275-e1e8164262b1)
+
+#### Full Screenshoot Code:
+
+![Screenshot (1138)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/7c29258f-e4ce-4fd9-a58c-bf26e8e91313)
 
 <p><b>Penjelasan:</b></p>
 
@@ -317,7 +324,11 @@ int main() {
 
 ```
 #### Output:
-![Screenshot (1082)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/7eb0f101-c054-441a-bdc2-6aea25bbcaa2)
+![Screenshot (1082)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/6fe9df8f-0c90-45df-8ce7-c1c4f05cb785)
+
+#### Full Screenshoot Code:
+
+![Screenshot (1139)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/a699e72b-b3de-4c5b-932e-383ea87d3546)
 
 <p><b>Penjelasan:</b></p>
 
@@ -336,3 +347,5 @@ Dalam tipe data memiliki tiga jenis yaitu tipe data primitif, tipe data abstrak,
 [1] Dr. Irmawati, Augury El Rayeb, Carudin, Budanis Dwi Mellani, Apriyanto Halim, Dr. Tutuk Indrayani, et al, "BUKU AJAR PEMROGRAMAN". PT. Sonpedia Publishing Indonesia, 2023.
 
 [2] Raden Budiarto Hadiprakoso, "Pemrograman Berorientasi Objek Teori dan implementasi dengan Java", RBH, 2021
+
+[3] Ema Utami, Sukrisno, "10 Langkah Belajar Logika dan Algoritma. menggunakan Bahasa C dan C++ di GnuLlinux", ANDI OFFSET, 2005
