@@ -181,11 +181,12 @@ int main() {
 ```
 #### Output:
 
-![Screenshot (1080)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/10efef45-f7ba-4f59-a49b-36a7cf9e6c0e)
+![Screenshot (1175)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/6b4d1e00-ea0a-4b4d-8542-91fc5ec784f0)
+
 
 #### Full Screenshoot Code:
 
-![Screenshot (1137)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/0f875934-bda5-453d-afe5-49534004b961)
+![Screenshot (1177)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/2e8efd94-659a-48c2-87cf-82eb7c44e890)
 
 <p><b>Penjelasan:</b></p>
 
@@ -252,11 +253,11 @@ int main() {
 
 ```
 #### Output:
-![Screenshot (1081)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/ea49e19e-eba3-4598-8275-e1e8164262b1)
+![Screenshot (1176)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/166af0de-fb7e-4790-a355-64897c9b94d9)
 
 #### Full Screenshoot Code:
 
-![Screenshot (1138)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/7c29258f-e4ce-4fd9-a58c-bf26e8e91313)
+![Screenshot (1178)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/b36049aa-5c33-477b-9369-34296ec66b2c)
 
 <p><b>Penjelasan:</b></p>
 
@@ -323,11 +324,11 @@ int main() {
 
 ```
 #### Output:
-![Screenshot (1082)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/6fe9df8f-0c90-45df-8ce7-c1c4f05cb785)
+
 
 #### Full Screenshoot Code:
 
-![Screenshot (1139)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/a699e72b-b3de-4c5b-932e-383ea87d3546)
+![Screenshot (1179)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/3ca45f97-64d1-49a3-b4fd-c715436de84f)
 
 <p><b>Penjelasan:</b></p>
 
