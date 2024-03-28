@@ -4,24 +4,32 @@
 
 ## Dasar Teori
 <div style="text-align: justify">
-Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen data dengan tipe yang sama, yang diidentifikasi oleh indeks atau nomor yang berurutan. Dalam array, setiap elemen dapat diakses melalui indeksnya. setiap komponen dan elemen dapat diakses dan dibedakan melalui indeks yang spesifik dimana jumlahnya sebanyak ukuran array tersebut dikurangi satu[1]. Indeks biasanya dimulai dari 0 dan berakhir pada jumlah elemen dikurangi satu.
+Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen data dengan tipe yang sama, yang diidentifikasi oleh indeks atau nomor yang berurutan. Dalam array, setiap elemen dapat diakses melalui indeksnya. setiap komponen dan elemen dapat diakses dan dibedakan melalui indeks yang spesifik dimana jumlahnya sebanyak ukuran array tersebut dikurangi satu [1]. Indeks biasanya dimulai dari 0 dan berakhir pada jumlah elemen dikurangi satu.
 </div>
 
 
 ### 1. Array satu Dimensi
-array satu dimensi dapat dianggap sebagai barisan kotak memori yang ditempatkan berdampingan secara berurutan dalam memori komputer. Setiap kotak (elemen array) memiliki nomor indeksnya sendiri, yang memungkinkan program untuk mengakses elemen tertentu dalam array dengan menggunakan indeks tersebut. suatu array yang sudah di deklarasikan dpaat diisi elemennya[2]. Contoh dalam kehidupan sehari - hari adalah : 
+array satu dimensi dapat dianggap sebagai barisan kotak memori yang ditempatkan berdampingan secara berurutan dalam memori komputer. Setiap kotak (elemen array) memiliki nomor indeksnya sendiri, yang memungkinkan program untuk mengakses elemen tertentu dalam array dengan menggunakan indeks tersebut. suatu array yang sudah di deklarasikan dpaat diisi elemennya [2]. Contoh dalam kehidupan sehari - hari adalah : 
 - Daftar Nilai Siswa Di sekolah, guru sering menggunakan array satu dimensi untuk menyimpan nilai-nilai siswa dalam satu kelas. Setiap elemen dalam array akan mewakili nilai dari satu siswa. Dengan menggunakan array, guru dapat dengan mudah mengakses dan mengelola data nilai siswa. yaitu  [85, 90, 78, 92, 88, 95, 87]
 
 ### 2. Array dua Dimensi
 <div style="text-align: justify">
 Array dua dimensi digunakan untuk menyimpan kumpulan elemen data dalam dua dimensi, biasanya dalam bentuk baris dan kolom. Setiap elemen dalam array dua dimensi diidentifikasi oleh dua indeks: satu untuk baris dan satu untuk kolom. Indeks baris dan kolom digunakan untuk mengakses dan mengidentifikasi lokasi setiap elemen dalam array.
+	
 - Stasiun cuaca menggunakan array dua dimensi untuk menyimpan data cuaca dalam bentuk grafik. Setiap baris dalam array mewakili satu hari, sedangkan setiap kolom mewakili parameter cuaca seperti suhu, kelembaban, dan kecepatan angin. yaitu: 
 
 </div>
 
 ### 3. Array Multidimensi
 <div style="text-align: justify">
-	
+Array multidimensi merupakan struktur data yang menyimpan data dalam dua dimensi atau lebih, yang biasanya disusun dalam bentuk matriks atau tabel. Dalam array multidimensi, setiap elemen memiliki dua atau lebih indeks untuk mengaksesnya, yang memungkinkan penyimpanan data dalam bentuk yang lebih terstruktur. contohnya dalam kehidupan sehari - hari yaitu:
+
+- Jadwal Pelajaran di Sekolah: Dalam mengatur jadwal pelajaran di sekolah, jadwal bisa direpresentasikan sebagai array multidimensi di mana setiap elemen mewakili kelas dan waktu. Dengan menggunakan array dua dimensi, informasi tentang jadwal kelas dapat diatur dalam bentuk yang terstruktur dan mudah diakses. yaitu: [
+ ["Matematika", "Bahasa Inggris", "IPA"],
+ ["Seni", "Olahraga", "IPS"],
+ ["Bahasa Indonesia", "Matematika", "Tata Boga"]
+]
+
 
 </div>
 
