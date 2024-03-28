@@ -9,7 +9,7 @@ Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen data d
 
 
 ### 1. Array satu Dimensi
-array satu dimensi dapat dianggap sebagai barisan kotak memori yang ditempatkan berdampingan secara berurutan dalam memori komputer. Setiap kotak (elemen array) memiliki nomor indeksnya sendiri, yang memungkinkan program untuk mengakses elemen tertentu dalam array dengan menggunakan indeks tersebut.
+array satu dimensi dapat dianggap sebagai barisan kotak memori yang ditempatkan berdampingan secara berurutan dalam memori komputer. Setiap kotak (elemen array) memiliki nomor indeksnya sendiri, yang memungkinkan program untuk mengakses elemen tertentu dalam array dengan menggunakan indeks tersebut. suatu array yang sudah di deklarasikan dpaat diisi elemennya[1]. Contoh dalam kehidupan sehari - hari adalah Daftar Nilai Siswa: Di sekolah, guru sering menggunakan array satu dimensi untuk menyimpan nilai-nilai siswa dalam satu kelas. Setiap elemen dalam array akan mewakili nilai dari satu siswa. Dengan menggunakan array, guru dapat dengan mudah mengakses dan mengelola data nilai siswa. yaitu  [85, 90, 78, 92, 88, 95, 87]
 
 ### 2. Array dua Dimensi
 <div style="text-align: justify">
@@ -386,7 +386,7 @@ kemudian program meminta pengguna untuk memasukkan nilai-nilai untuk setiap elem
 
 
 ## Referensi
-[1] Dr. Irmawati, Augury El Rayeb, Carudin, Budanis Dwi Mellani, Apriyanto Halim, Dr. Tutuk Indrayani, et al, "BUKU AJAR PEMROGRAMAN". PT. Sonpedia Publishing Indonesia, 2023.
+[1] I Komang Setia Buana, Gusti Ngurah Mega Nata, Ida Bagus Ketut Surya Arnawa, "STRUKTUR DATA", Andi, 2018.
 
 [2] Raden Budiarto Hadiprakoso, "Pemrograman Berorientasi Objek Teori dan implementasi dengan Java", RBH, 2021
 
