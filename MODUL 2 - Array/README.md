@@ -11,6 +11,7 @@ Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen data d
 ### 1. Array satu Dimensi
 array satu dimensi dapat dianggap sebagai barisan kotak memori yang ditempatkan berdampingan secara berurutan dalam memori komputer. Setiap kotak (elemen array) memiliki nomor indeksnya sendiri, yang memungkinkan program untuk mengakses elemen tertentu dalam array dengan menggunakan indeks tersebut. suatu array yang sudah di deklarasikan dpaat diisi elemennya [2]. Contoh dalam kehidupan sehari - hari adalah : 
 - Daftar Nilai Siswa Di sekolah, guru sering menggunakan array satu dimensi untuk menyimpan nilai-nilai siswa dalam satu kelas. Setiap elemen dalam array akan mewakili nilai dari satu siswa. Dengan menggunakan array, guru dapat dengan mudah mengakses dan mengelola data nilai siswa. yaitu  [85, 90, 78, 92, 88, 95, 87]
+- Adapun contoh lain, yaitu bulan[0] artinya elemen pertama dari array bulan, dan bulan[11] adalah elemen ke-12 atau elemen terakhir pada array bulan [3].
 
 ### 2. Array dua Dimensi
 <div style="text-align: justify">
@@ -410,15 +411,15 @@ kemudian program meminta pengguna untuk memasukkan nilai-nilai untuk setiap elem
 
 ## Kesimpulan
 - ### Hasil Praktikum
-
+Dalam praktikum kali ini, kita mendapatkan materi mengenai array yang terdiri dari lima, yaitu array satu dimensi, array dua dimensi, array multidimensi, array empat dimensi, dan array lima dimensi. array sendiri ini dapat kita digunakan untuk database sementara untuk menyimpan sebuah data dengan tipe data yang sama 
 
 - ### Pelajaran yang didapat
-
+Dengan menggunakan array dalam pemrograman, kita dapat menyimpan, mengelola, dan mengakses data secara efisien dalam berbagai dimensi dan struktur yang sesuai dengan kebutuhan aplikasi. Dengan pemahaman tentang array satu dimensi, dua dimensi, multidimensi, empat dimensi, dan lima dimensi, kita dapat memahami bagaimana struktur data ini digunakan dalam pemrograman untuk mengatasi berbagai tantangan dalam pengelolaan data.
 
 ## Referensi
 [1] Paslima Simanjuntak, Erlin Elisa, Hotma Pangaribuan, "Pengantar Konsep Struktur Data", Pustaka Galeri Mandiri, 2020.
 
 [2] I Komang Setia Buana, Gusti Ngurah Mega Nata, Ida Bagus Ketut Surya Arnawa, "STRUKTUR DATA", Andi, 2018.
 
-[3] Ema Utami, Sukrisno, "10 Langkah Belajar Logika dan Algoritma. menggunakan Bahasa C dan C++ di GnuLlinux", ANDI OFFSET, 2005
+[3] Vivian Siahaan, Rismon Hasiholan Sianipar, "BUKU PINTAR Pemrograman C++ Untuk Pelajar dan Mahasiswa", BALIGE PUBLISHING, 2020
 
