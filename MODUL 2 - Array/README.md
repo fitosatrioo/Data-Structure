@@ -326,6 +326,8 @@ int main() {
 ```
 #### Output:
 
+![Screenshot (1181)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/15bbff0d-c27b-44e3-9eec-667dc079a8cc)
+
 
 #### Full Screenshoot Code:
 
