@@ -78,8 +78,8 @@ z << "] = ";
 
 
 ```
-interpretasi:
-
+interpretasi: Program diatas adalah contoh program sederhana dari array tiga dimensi dalam bahasa C++. Aplikasi semacam ini dapat digunakan dalam berbagai konteks di mana data perlu disimpan dan diakses dalam bentuk yang terstruktur dengan lebih dari dua dimensi.
+Pengguna diminta untuk memasukkan nilai setiap elemen array dengan menggunakan tiga loop bersarang. Loop pertama (x) mengontrol indeks baris pertama, loop kedua (y) mengontrol indeks baris kedua, dan loop ketiga (z) mengontrol indeks kolom. etelah mencetak semua elemen, program mencetak kembali isi array dalam format yang lebih terstruktur, menampilkan setiap baris secara terpisah, dengan menggunakan loop yang serupa lagi.
 
 
 ### 2. Nilai Maksimal pada Array
