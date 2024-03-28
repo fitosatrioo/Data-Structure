@@ -270,7 +270,7 @@ int main() {
 using namespace std;
 
 int main() {
-    int a, i = 1, maks, min, sum = 0, lokasi_max, lokasi_min;
+    int a, i = 1, maks, min, sum = 0, lokasi;
     double rata_rata;
     
     // Meminta panjang array dari pengguna
@@ -292,20 +292,20 @@ int main() {
     for (i = 0; i < a; i++) {
         if (array[i] > maks) {
             maks = array[i];
-            lokasi_max = i;
+            lokasi = i;
         }
     }
-    cout << "Nilai maksimum adalah " << maks << " berada di Index ke " << lokasi_max << endl;
+    cout << "Nilai maksimum adalah " << maks << " berada di Index ke " << lokasi << endl;
     
     // Mencari nilai minimum
     min = array[0];
     for (i = 0; i < a; i++) {
         if (array[i] < min) {
             min = array[i];
-            lokasi_min = i;
+            lokasi = i;
         }
     }
-    cout << "Nilai minimum adalah " << min << " berada di Index ke " << lokasi_min << endl;
+    cout << "Nilai minimum adalah " << min << endl;
     
     // Menghitung rata-rata
     for (i = 0; i < a; i++) {
@@ -321,6 +321,7 @@ int main() {
 
     return 0;
 }
+
 
 ```
 #### Output:
