@@ -61,7 +61,7 @@ int main()
 
 ### 5. Array Lima Dimensi
 <div style="text-align: justify">
-	
+Array lima dimensi adalah struktur data yang memungkinkan penyimpanan kumpulan elemen data dengan tipe yang sama dalam lima dimensi atau lima tingkat. Ini berarti setiap elemen dalam array memiliki lima indeks yang diperlukan untuk mengaksesnya. array lima dimensi dapat dianggap sebagai kumpulan kotak memori yang tersusun dalam lima dimensi, di mana setiap kotak memiliki lima koordinat untuk mengidentifikasinya.
 
 </div>
 
