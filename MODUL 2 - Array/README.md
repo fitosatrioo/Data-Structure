@@ -35,9 +35,15 @@ Array multidimensi merupakan struktur data yang menyimpan data dalam dua dimensi
 
 ### 4. Array Empat Dimensi
 <div style="text-align: justify">
-	
+array empat dimensi sebagai kumpulan matriks tiga dimensi yang tersusun secara berlapis. Setiap "layer" dari matriks tiga dimensi merupakan elemen dari array empat dimensi. Setiap elemen dalam matriks tiga dimensi, pada gilirannya, dapat berisi kumpulan data dalam bentuk array dua dimensi. yaitu contoh sederhana nya adalah:
+
 
 </div>
+```C++
+[  [ [ [1, 2], [3, 4] ], [ [5, 6], [7, 8] ] ],
+   [ [ [9, 10], [11, 12] ], [ [13, 14], [15, 16] ] ]  ]
+
+```
 
 ### 5. Array Lima Dimensi
 <div style="text-align: justify">
