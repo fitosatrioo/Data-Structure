@@ -3,20 +3,38 @@
 <p align="center">2311110030</p>
 
 ## Dasar Teori
-
-### ARRAY
 <div style="text-align: justify">
-Array adalah 
+Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen data dengan tipe yang sama, yang diidentifikasi oleh indeks atau nomor yang berurutan. Dalam array, setiap elemen dapat diakses melalui indeksnya. Indeks biasanya dimulai dari 0 dan berakhir pada jumlah elemen dikurangi satu.
 </div>
 
 
-### 1. Array 2 Dimensi
+### 1. Array satu Dimensi
+array satu dimensi dapat dianggap sebagai barisan kotak memori yang ditempatkan berdampingan secara berurutan dalam memori komputer. Setiap kotak (elemen array) memiliki nomor indeksnya sendiri, yang memungkinkan program untuk mengakses elemen tertentu dalam array dengan menggunakan indeks tersebut.
 
-### 2. Array 3 Dimensi
+### 2. Array dua Dimensi
 <div style="text-align: justify">
 	
 
 </div>
+
+### 3. Array Multidimensi
+<div style="text-align: justify">
+	
+
+</div>
+
+### 4. Array Empat Dimensi
+<div style="text-align: justify">
+	
+
+</div>
+
+### 4. Array Empat Dimensi
+<div style="text-align: justify">
+	
+
+</div>
+
 
 
 ## Guided 
