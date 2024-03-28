@@ -179,6 +179,7 @@ int main() {
 }
 
 ```
+<p><b>Penjelasan:</b></p>
 program diatas merupakan program untuk menyimpan 10 data array kemudian menyimpan bilangan genap dari panjang 10 array tersebut dan menyimpan bilangan ganjil dari panjang 10 array tersebut. dengan penjelasan:
 
 Program mendeklarasikan array data dengan panjang 10 untuk menyimpan data yang dimasukkan oleh pengguna. Selain itu, dua array tambahan genap dan ganjil juga dideklarasikan untuk menyimpan angka genap dan ganjil secara terpisah. Variabel count_genap dan count_ganjil digunakan untuk melacak jumlah angka genap dan ganjil yang telah dimasukkan ke dalam array genap dan ganjil.
@@ -194,7 +195,7 @@ Setelah pengguna memasukkan angka, program menggunakan loop for untuk memeriksa 
 
 ![Screenshot (1177)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/2e8efd94-659a-48c2-87cf-82eb7c44e890)
 
-<p><b>Penjelasan:</b></p>
+
 
 
 
@@ -258,6 +259,7 @@ int main() {
 }
 
 ```
+<p><b>Penjelasan:</b></p>
 Program di atas adalah sebuah contoh program dalam bahasa C++ yang menggunakan array tiga dimensi. Program ini meminta pengguna untuk memasukkan ukuran atau jumlah elemen array tiga dimensi (dalam hal ini, ukuran untuk setiap dimensi: a, b, dan c), kemudian mengisi array tersebut dengan nilai-nilai yang dimasukkan oleh pengguna. Variabel a, b, dan c digunakan untuk menyimpan ukuran atau jumlah elemen dalam masing-masing dimensi array kemudian Program meminta pengguna untuk memasukkan ukuran atau jumlah elemen array untuk masing-masing dimensi.
 
 Program menggunakan tiga loop bersarang (for) untuk meminta pengguna memasukkan nilai-nilai untuk setiap elemen array. Setiap loop mengatur indeks untuk masing-masing dimensi array, Setelah semua elemen array diisi, program mencetak nilai setiap elemen array ke layar bersama dengan indeksnya.
@@ -272,7 +274,7 @@ Program menggunakan tiga loop bersarang (for) untuk meminta pengguna memasukkan 
 
 ![Screenshot (1178)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/b36049aa-5c33-477b-9369-34296ec66b2c)
 
-<p><b>Penjelasan:</b></p>
+
 
 
 
@@ -337,7 +339,7 @@ int main() {
 
 
 ```
-
+<p><b>Penjelasan:</b></p>
 program diatas merupakan sebuah program untuk mencari suatu nilai maksimum, minimum kemudian rata - rata dari suatu panjang array yang diinputkan dari user. 
 Variabel a, i, maks, min, sum, lokasi, dan rata_rata dideklarasikan. Variabel ini akan digunakan untuk menyimpan panjang array, iterasi, nilai maksimum, nilai minimum, total nilai, lokasi nilai maksimum/minimum, dan rata-rata, secara berturut-turut kemudian meminta pengguna untuk memasukkan panjang array yang diinginkan. Array array dideklarasikan dengan panjang yang telah dimasukkan oleh pengguna.
 
@@ -355,7 +357,7 @@ kemudian program meminta pengguna untuk memasukkan nilai-nilai untuk setiap elem
 
 ![Screenshot (1179)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/3ca45f97-64d1-49a3-b4fd-c715436de84f)
 
-<p><b>Penjelasan:</b></p>
+
 
 
 ## Kesimpulan
