@@ -178,12 +178,12 @@ int main() {
 
 #### Output:
 
-
+![Screenshot (1234)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/499a3325-e7c6-4d41-a95b-6df2b24538cd)
 
 
 #### Full Screenshoot Code:
 
-
+![Screenshot (1238)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/5bb64ea4-bfc1-43e7-a685-af9a23f77c54)
 
 
 
@@ -240,10 +240,11 @@ int main() {
 
 #### Output:
 
+![Screenshot (1235)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/d26b7bb3-5cfa-46e8-8be6-6cd0a9b01f7e)
 
 #### Full Screenshoot Code:
 
-
+![Screenshot (1239)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/77be6144-0ea6-4f17-9527-e3890d93dc19)
 
 
 
@@ -318,12 +319,12 @@ int main() {
 
 #### Output:
 
-
+![Screenshot (1236)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/6b43d41a-fc59-48fc-bff4-4fd21c83893c)
 
 
 #### Full Screenshoot Code:
 
-
+![Screenshot (1240)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/969fd900-c772-4809-b7b9-64d61a96e150)
 
 
 
