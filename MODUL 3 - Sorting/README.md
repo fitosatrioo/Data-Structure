@@ -1,0 +1,343 @@
+# <h1 align="center">Laporan Praktikum Modul Sorting</h1>
+<p align="center">Fito Satrio</p>
+<p align="center">2311110030</p>
+
+## Dasar Teori
+<div style="text-align: justify">
+Sorting adalah 
+
+
+
+
+## Guided 
+
+### 1. Bubble Sort Ascending
+
+```C++
+// Guided 1
+// bubble sorting
+#include <iostream>
+
+using namespace std;
+
+void bubble_sort(double arr[], int length){
+    bool not_sorted = true;
+    int j=0;
+    double tmp;
+
+    while (not_sorted){
+        not_sorted = false;
+        j++;
+        for (int i = 0; i < length - j; i++){
+            if (arr[i] > arr[i + 1]) {
+                tmp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = tmp;
+                not_sorted = true;
+            }//end of if
+        }//end of for loop
+    }//end of while loop
+}//end of bubble_sort
+
+void print_array(double a[], int length) {
+    for(int i=0; i<length; i++) {
+        cout << a[i] << "\t";
+    }
+    cout << endl;
+}
+
+int main() {
+
+    int length = 5;
+    double a[] = {22.1, 15.3, 8.2, 33.21, 99.99};
+
+    cout << "Urutan bilangan sebelum sorting: " << endl;
+    print_array(a, length);
+
+    bubble_sort(a, length);
+
+    cout << "\nUrutan bilangan setelah sorting: " << endl;
+    print_array(a, length);
+}
+```
+Program di atas adalah 
+
+### 2. Insertion Sort Descending
+
+```C++
+// Guided 2
+
+// insertion sorting
+
+# include <iostream>
+
+using namespace std;
+
+void insertion_sort(char arr[], int length) {
+    int i, j;
+    char tmp;
+
+    for (i = 1; i < length; i++) {
+        j = i;
+
+        while (j > 0 && arr[j - 1] < arr[j]) {
+            tmp = arr[j];
+            arr[j] = arr[j - 1];
+            arr[j - 1] = tmp;
+            j--;
+        }// end of while loop
+    }// end of for loop
+}
+
+void print_array(char a[], int length) {
+
+    for(int i=0; i<length; i++) {
+        cout << a[i] << "\t";
+    }
+    cout << endl;
+}
+int main() {
+
+    int length = 6;
+    char a[length] = {'c', 'f', 'a', 'z', 'd', 'p'};
+
+    cout << "Urutan karakter sebelum sorting: " << endl;
+    print_array(a, length);
+
+    insertion_sort(a, length);
+
+    cout << "nUrutan karakter setelah sorting: " << endl;
+    print_array(a, length);
+}
+
+
+```
+Program di atas adalah 
+
+
+
+
+
+## Unguided 
+
+### 1.  Kelas S1 IF 2016 G memiliki 5 mahasiswa. Pada akhir semester mereka menerima lembar Indeks Prestasi Semester (IPS), masing-masing mahasiswa tersebut memiliki IPS sebagai berikut: {3.8, 2.9, 3.3, 4.0, 2.4}. Buatlah program untuk mengurutkan IPS mahasiswa tersebut dari yang terbesar hingga terkecil dengan menggunakan algoritma Selection Sort!
+
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+// Fungsi untuk melakukan Selection Sort
+void selectionSort(float arr[], int n) {
+    int i, j, maks;
+
+    // Loop untuk setiap elemen kecuali elemen terakhir
+    for (i = 0; i < n - 1; i++) {
+        maks = i; // Menginisialisasi indeks maksimum
+
+        // Loop untuk mencari nilai maksimum dari elemen yang belum diurutkan
+        for (j = i + 1; j < n; j++) {
+            if (arr[j] > arr[maks]) {
+                maks = j;
+            }
+        }
+
+        // Menukar elemen terbesar dengan elemen pertama yang belum diurutkan
+        float temp = arr[i];
+        arr[i] = arr[maks];
+        arr[maks] = temp;
+    }
+}
+
+int main() {
+    // IPS dari masing-masing mahasiswa
+    float ips[] = {3.8, 2.9, 3.3, 4.0, 2.4};
+    int n = sizeof(ips) / sizeof(ips[0]);
+
+    // Mengurutkan IPS mahasiswa menggunakan Selection Sort
+    selectionSort(ips, n);
+
+    // Menampilkan IPS mahasiswa yang telah diurutkan
+    cout << "IPS mahasiswa setelah diurutkan dari yang terbesar hingga terkecil:" << endl;
+    for (int i = 0; i < n; i++) {
+        cout << ips[i] << " ";
+    }
+    cout << endl;
+    
+    cout << "" << endl;
+    cout << "" << endl;
+    cout << "By: Fito Satrio (2311110030)" << endl;
+
+    return 0;
+}
+
+
+```
+<p><b>Penjelasan:</b></p>
+
+#### Output:
+
+
+
+
+#### Full Screenshoot Code:
+
+
+
+
+
+
+
+
+### 2. Pak RT memiliki 10 warga dengan nama: siti, situ, sana, ana, ani, caca, cici, dida, dodo, dan dadi. Supaya mudah dalam melakukan pencarian, Pak RT akan mengurutkan namanama tersebut sesuai dengan alfabet. Buatlah program untuk membantu Pak RT dengan menggunakan algoritma Bubble Sort! 
+
+```C++
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+// Fungsi untuk melakukan Bubble Sort
+void bubbleSort(string arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Menukar elemen jika elemen saat ini lebih besar dari elemen berikutnya
+                string temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
+int main() {
+    // Array berisi nama-nama warga Pak RT
+    string namaWarga[] = {"siti", "situ", "sana", "ana", "ani", "caca", "cici", "dida", "dodo", "dadi"};
+    int n = sizeof(namaWarga) / sizeof(namaWarga[0]);
+
+    // Mengurutkan nama-nama warga menggunakan Bubble Sort
+    bubbleSort(namaWarga, n);
+
+    // Menampilkan nama-nama warga yang telah diurutkan
+    cout << "Nama-nama warga Pak RT setelah diurutkan sesuai alfabet:" << endl;
+    for (int i = 0; i < n; i++) {
+        cout << namaWarga[i] << endl;
+    }
+    
+    cout << "" << endl;
+    cout << "" << endl;
+    cout << "By: Fito Satrio (2311110030)" << endl;
+
+    return 0;
+}
+
+
+```
+<p><b>Penjelasan:</b></p>
+
+
+#### Output:
+
+
+#### Full Screenshoot Code:
+
+
+
+
+
+### 3. Buatlah program yang meminta user menginputkan suatu bilangan n dan meminta user untuk menginputkan sejumlah n karakter. Kemudian program akan melakukan sorting secara menaik (ascending) dan menurun (descending)! 
+
+```C++
+#include <iostream>
+#include <algorithm> // Untuk penggunaan fungsi sort()
+
+using namespace std;
+
+// Fungsi untuk menampilkan alfabet sebelum sorting
+void tampilAlfabet(const char alfabet[], int n) {
+    cout << "Alfabet sebelum pengurutan: ";
+    for (int i = 0; i < n; ++i) {
+        cout << alfabet[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int n;
+    cout << "Masukkan jumlah alfabet (n): ";
+    cin >> n;
+
+    char alfabet[n];
+
+    // Meminta pengguna untuk memasukkan alfabet sejumlah n
+    for (int i = 0; i < n; ++i) {
+        cout << "Alfabet ke-" << i + 1 << ": ";
+        cin >> alfabet[i];
+    }
+
+    // Memanggil fungsi untuk menampilkan alfabet sebelum pengurutan
+    tampilAlfabet(alfabet, n);
+
+    // Pengurutan alfabet secara menaik (ascending)
+    sort(alfabet, alfabet + n);
+
+    // Menampilkan hasil pengurutan menaik
+    cout << "\nHasil pengurutan menaik (ascending): ";
+    for (int i = 0; i < n; ++i) {
+        cout << alfabet[i] << " ";
+    }
+
+    // Pengurutan alfabet secara menurun (descending) tanpa menggunakan greater
+    for (int i = 0; i < n / 2; ++i) {
+        char temp = alfabet[i];
+        alfabet[i] = alfabet[n - i - 1];
+        alfabet[n - i - 1] = temp;
+    }
+
+    // Menampilkan hasil pengurutan menurun
+    cout << "\nHasil pengurutan menurun (descending): ";
+    for (int i = 0; i < n; ++i) {
+        cout << alfabet[i] << " ";
+    }
+    
+    cout << "" << endl;
+    cout << "" << endl;
+    cout << "By: Fito Satrio (2311110030)" << endl;
+
+    return 0;
+}
+
+
+
+```
+<p><b>Penjelasan:</b></p>
+
+
+
+#### Output:
+
+
+
+
+#### Full Screenshoot Code:
+
+
+
+
+
+
+## Kesimpulan
+- ### Hasil Praktikum
+
+- ### Pelajaran yang didapat
+
+
+## Referensi
+[1] Paslima Simanjuntak, Erlin Elisa, Hotma Pangaribuan, "Pengantar Konsep Struktur Data", Pustaka Galeri Mandiri, 2020.
+
+[2] I Komang Setia Buana, Gusti Ngurah Mega Nata, Ida Bagus Ketut Surya Arnawa, "STRUKTUR DATA", Andi, 2018.
+
+[3] Vivian Siahaan, Rismon Hasiholan Sianipar, "BUKU PINTAR Pemrograman C++ Untuk Pelajar dan Mahasiswa", BALIGE PUBLISHING, 2020
+
