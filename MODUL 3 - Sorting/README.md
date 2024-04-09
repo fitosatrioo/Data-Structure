@@ -4,13 +4,18 @@
 
 ## Dasar Teori
 <div style="text-align: justify">
-Algoritma sorting adalah serangkaian langkah atau prosedur yang digunakan untuk mengurutkan elemen-elemen dalam suatu struktur data, seperti array atau daftar, sesuai dengan kriteria tertentu. Tujuan utama dari algoritma sorting adalah untuk menyusun elemen-elemen data dalam urutan yang teratur[1]. baik itu dari yang terkecil ke yang terbesar (ascending), maupun sebaliknya dari yang terbesar ke yang terkecil (descending). Algoritma sorting sangat penting dalam pengembangan perangkat lunak karena sering digunakan dalam berbagai aplikasi, termasuk basis data, pencarian data, dan analisis data.
+Algoritma sorting adalah serangkaian langkah atau prosedur yang digunakan untuk mengurutkan elemen-elemen dalam suatu struktur data, seperti array atau daftar, sesuai dengan kriteria tertentu. Tujuan utama dari algoritma sorting adalah untuk menyusun elemen-elemen data dalam urutan yang teratur [1]. baik itu dari yang terkecil ke yang terbesar (ascending), maupun sebaliknya dari yang terbesar ke yang terkecil (descending). Algoritma sorting sangat penting dalam pengembangan perangkat lunak karena sering digunakan dalam berbagai aplikasi, termasuk basis data, pencarian data, dan analisis data.
 
 ### 1. Bubble Sorting
 Merupakan algoritma sorting yang secara berulang membandingkan pasangan elemen yang berdekatan dan menukarnya jika mereka berada dalam urutan yang salah. Algoritma dimulai dengan membandingkan elemen pertama dengan elemen kedua, kemudian menukar posisi jika diperlukan.
 Selanjutnya, elemen kedua dibandingkan dengan elemen ketiga, dan seterusnya, hingga elemen terakhir array.
 Proses ini diulang untuk setiap elemen array, sehingga elemen terbesar akan "menggelembung" (bubble) ke posisi terakhir.
 Setelah iterasi pertama, elemen terbesar akan berada di posisi terakhir. Kemudian, proses dilakukan lagi untuk elemen-elemen yang belum terurut, kecuali elemen terakhir. Proses ini berlanjut hingga seluruh array terurut.
+
+### 2. Selection Sorting
+Selection sort adalah perbaikan dari bubble sort, dengan mengurangi jumlah perbandingan [2]. Selection sort memilih satu per satu elemen data dari posisi awal, untuk mencari data terkecil dengan mencatat posisi index saja lalu dilakukan sekali pertukaran pada akhir dari setiap tahapan. selection sort merupakan metode pengurutan dengan mencari nilai data terkecil dimulai dari data di posisi 0 hingga di posisi N-1.
+
+### 3. Insertion Sorting
 
 
 
@@ -393,5 +398,7 @@ Fungsi dalam main:
 
 ## Referensi
 [1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to Algorithms," 3rd ed. The MIT Press, 2009.
+
+[2] M. N. Fakhruzzaman, Ika Qutsiati Utami, Purbandini, "BUKU AJAR ALGORITMA PEMROGRAMAN", Airlangga University Press, 2023.
 
 
