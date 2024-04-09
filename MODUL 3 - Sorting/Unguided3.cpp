@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm> // Untuk penggunaan fungsi sort()
 
 using namespace std;
 
@@ -10,6 +9,23 @@ void tampilAlfabet(const char alfabet[], int n) {
         cout << alfabet[i] << " ";
     }
     cout << endl;
+}
+
+// Fungsi untuk melakukan insertion sort)
+void insertionSort(char arr[], int n) {
+    int i, j;
+    char key;
+    for (i = 1; i < n; i++) {
+        key = arr[i];
+        j = i - 1;
+        // Pindahkan elemen dari arr[0..i-1] yang lebih besar dari key
+        // ke posisi satu di depan posisi mereka saat ini
+        while (j >= 0 && arr[j] < key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
 }
 
 int main() {
@@ -28,21 +44,8 @@ int main() {
     // Memanggil fungsi untuk menampilkan alfabet sebelum pengurutan
     tampilAlfabet(alfabet, n);
 
-    // Pengurutan alfabet secara menaik (ascending)
-    sort(alfabet, alfabet + n);
-
-    // Menampilkan hasil pengurutan menaik
-    cout << "\nHasil pengurutan menaik (ascending): ";
-    for (int i = 0; i < n; ++i) {
-        cout << alfabet[i] << " ";
-    }
-
-    // Pengurutan alfabet secara menurun (descending) tanpa menggunakan greater
-    for (int i = 0; i < n / 2; ++i) {
-        char temp = alfabet[i];
-        alfabet[i] = alfabet[n - i - 1];
-        alfabet[n - i - 1] = temp;
-    }
+    // Panggil fungsi insertion sort untuk mengurutkan alfabet secara menurun
+    insertionSort(alfabet, n);
 
     // Menampilkan hasil pengurutan menurun
     cout << "\nHasil pengurutan menurun (descending): ";
@@ -50,10 +53,7 @@ int main() {
         cout << alfabet[i] << " ";
     }
     
-    cout << "" << endl;
-    cout << "" << endl;
-    cout << "By: Fito Satrio (2311110030)" << endl;
+    cout << "\n\nBy: Fito Satrio (2311110030)" << endl;
 
     return 0;
 }
-
