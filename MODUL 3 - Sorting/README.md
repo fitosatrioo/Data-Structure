@@ -67,7 +67,7 @@ end procedure
 ```
 
 ### 4. Kompleksitas Algoritma
-Algoritma Bubble Sort, Selection Sort, dan Insertion Sort adalah tiga algoritma pengurutan sederhana yang mudah diimplementasikan. Ketiganya memiliki kompleksitas waktu rata-rata O(n^2), di mana n adalah jumlah elemen dalam array yang akan diurutkan. Namun, di antara ketiganya, Insertion Sort sering kali dianggap lebih efisien daripada Bubble Sort dan Selection Sort [4]. Bubble Sort dan Selection Sort sering melakukan banyak pertukaran atau pergeseran elemen dalam array, bahkan jika array sudah hampir terurut. Hal ini mengakibatkan kinerja yang lebih lambat karena setiap pertukaran membutuhkan waktu tambahan. Insertion Sort, di sisi lain, hanya memindahkan elemen yang diperlukan ke posisi yang benar dalam bagian terurut dari array, yang sering kali lebih efisien daripada pertukaran elemen yang dilakukan oleh Bubble Sort dan Selection Sort. Meskipun Insertion Sort dianggap lebih efisien dalam banyak kasus daripada Bubble Sort dan Selection Sort, pilihan algoritma pengurutan yang tepat tergantung pada kebutuhan spesifik aplikasi dan karakteristik data yang akan diurutkan. Setiap algoritma memiliki kelebihan dan kelemahan masing-masing, dan penting untuk mempertimbangkan konteks penggunaannya secara cermat.
+Kompleksitas suatu algoritma merupakan ukuran seberapa banyak komputasi yang dibutuhkan algoritma tersebut untuk mendapatkan hasil yang diinginkan [4]. Algoritma Bubble Sort, Selection Sort, dan Insertion Sort adalah tiga algoritma pengurutan sederhana yang mudah diimplementasikan. Ketiganya memiliki kompleksitas waktu rata-rata O(n^2), di mana n adalah jumlah elemen dalam array yang akan diurutkan. Namun, di antara ketiganya, Insertion Sort sering kali dianggap lebih efisien daripada Bubble Sort dan Selection Sort [5]. Bubble Sort dan Selection Sort sering melakukan banyak pertukaran atau pergeseran elemen dalam array, bahkan jika array sudah hampir terurut. Hal ini mengakibatkan kinerja yang lebih lambat karena setiap pertukaran membutuhkan waktu tambahan. Insertion Sort, di sisi lain, hanya memindahkan elemen yang diperlukan ke posisi yang benar dalam bagian terurut dari array, yang sering kali lebih efisien daripada pertukaran elemen yang dilakukan oleh Bubble Sort dan Selection Sort. Meskipun Insertion Sort dianggap lebih efisien dalam banyak kasus daripada Bubble Sort dan Selection Sort, pilihan algoritma pengurutan yang tepat tergantung pada kebutuhan spesifik aplikasi dan karakteristik data yang akan diurutkan. Setiap algoritma memiliki kelebihan dan kelemahan masing-masing, dan penting untuk mempertimbangkan konteks penggunaannya secara cermat.
 
 
 ## Guided 
@@ -453,3 +453,7 @@ Fungsi dalam main:
 [2] M. N. Fakhruzzaman, Ika Qutsiati Utami, Purbandini, "BUKU AJAR ALGORITMA PEMROGRAMAN", Airlangga University Press, 2023.
 
 [3] Mark Allen Weiss, "Data Structures and Algorithm Analysis in C++ 4th Edition", Pearson, 2014.
+
+[4] Anisya Sonita dan Febrian Nurtaneo, "ANALISIS PERBANDINGAN ALGORITMA BUBBLE SORT, MERGE SORT, DAN QUICK SORT DALAM PROSES PENGURUTAN KOMBINASI ANGKA DAN HURUF", Jurnal Pseudocode, 2015.
+
+[5] Wahyu Fahmy Wisudawan, "Kompleksitas Algoritma Sorting yang Populer Dipakai", Rinaldi Munir, 2007.
