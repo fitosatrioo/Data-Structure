@@ -4,7 +4,9 @@
 
 ## Dasar Teori
 <div style="text-align: justify">
-Sorting adalah 
+Algoritma sorting adalah serangkaian langkah atau prosedur yang digunakan untuk mengurutkan elemen-elemen dalam suatu struktur data, seperti array atau daftar, sesuai dengan kriteria tertentu. Tujuan utama dari algoritma sorting adalah untuk menyusun elemen-elemen data dalam urutan yang teratur[1]. baik itu dari yang terkecil ke yang terbesar (ascending), maupun sebaliknya dari yang terbesar ke yang terkecil (descending). Algoritma sorting sangat penting dalam pengembangan perangkat lunak karena sering digunakan dalam berbagai aplikasi, termasuk basis data, pencarian data, dan analisis data.
+
+### 1. Bubble Sorting
 
 
 
@@ -387,9 +389,6 @@ Fungsi dalam main:
 
 
 ## Referensi
-[1] Paslima Simanjuntak, Erlin Elisa, Hotma Pangaribuan, "Pengantar Konsep Struktur Data", Pustaka Galeri Mandiri, 2020.
+[1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to Algorithms," 3rd ed. The MIT Press, 2009.
 
-[2] I Komang Setia Buana, Gusti Ngurah Mega Nata, Ida Bagus Ketut Surya Arnawa, "STRUKTUR DATA", Andi, 2018.
-
-[3] Vivian Siahaan, Rismon Hasiholan Sianipar, "BUKU PINTAR Pemrograman C++ Untuk Pelajar dan Mahasiswa", BALIGE PUBLISHING, 2020
 
