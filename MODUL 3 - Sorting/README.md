@@ -449,4 +449,4 @@ Fungsi dalam main:
 
 [2] M. N. Fakhruzzaman, Ika Qutsiati Utami, Purbandini, "BUKU AJAR ALGORITMA PEMROGRAMAN", Airlangga University Press, 2023.
 
-[3] Mark Allen Weiss, "Data Structures and Algorithm Analysis in C++", Pearson, 2014.
+[3] Mark Allen Weiss, "Data Structures and Algorithm Analysis in C++ 4th Edition", Pearson, 2014.
