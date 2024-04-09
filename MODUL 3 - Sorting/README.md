@@ -255,8 +255,7 @@ int main() {
 <p><b>Penjelasan:</b></p>
 
 Array namaWarga[]:
-
-Array namaWarga[] menyimpan nama-nama warga Pak RT dalam bentuk string.
+- Array namaWarga[] menyimpan nama-nama warga Pak RT dalam bentuk string.
 - Nilai-nilai yang disimpan dalam array tersebut adalah: {"siti", "situ", "sana", "ana", "ani", "caca", "cici", "dida", "dodo", "dadi"}.
 - Nama-nama warga tersebut tidak terurut secara alfabet.
   
