@@ -60,7 +60,9 @@ int main() {
     print_array(a, length);
 }
 ```
-Program di atas adalah 
+Program di atas adalah implementasi algoritma bubble sort dalam bahasa C++. Algoritma ini digunakan untuk mengurutkan array bilangan pecahan secara berurutan dari yang terkecil hingga yang terbesar. Dalam implementasi ini, algoritma Bubble Sort digunakan untuk mengurutkan array a. Proses pengurutan dimulai dari awal array dengan membandingkan setiap pasangan elemen adjacent dan menukarnya jika diperlukan. Proses ini diulang hingga tidak ada lagi pertukaran yang dilakukan dalam satu iterasi.
+
+
 
 ### 2. Insertion Sort Descending
 
