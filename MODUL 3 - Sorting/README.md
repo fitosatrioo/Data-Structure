@@ -31,8 +31,40 @@ end procedure
 ### 2. Selection Sorting
 Selection sort adalah perbaikan dari bubble sort, dengan mengurangi jumlah perbandingan [2]. Selection sort memilih satu per satu elemen data dari posisi awal, untuk mencari data terkecil dengan mencatat posisi index saja lalu dilakukan sekali pertukaran pada akhir dari setiap tahapan. selection sort merupakan metode pengurutan dengan mencari nilai data terkecil dimulai dari data di posisi 0 hingga di posisi N-1.
 
-### 3. Insertion Sorting
+```C++
+procedure selectionSort(A : list of sortable items)
+    n = length(A)
+    for i = 0 to n-2 do
+        minIndex = i
+        for j = i+1 to n-1 do
+            if A[j] < A[minIndex] then
+                minIndex = j
+            end if
+        end for
+        swap(A[i], A[minIndex])
+    end for
+end procedure
+```
 
+### 3. Insertion Sorting
+Algoritma Insertion Sort bekerja dengan membagi array menjadi dua bagian: bagian yang sudah terurut dan bagian yang belum terurut.
+Setiap elemen dari bagian belum terurut dimasukkan ke dalam bagian terurut pada posisi yang tepat, sehingga bagian terurut semakin membesar setiap kali elemen baru dimasukkan. Algoritma ini mengulangi proses tersebut hingga seluruh array terurut [3]. Insertion Sort efisien untuk array yang relatif kecil atau hampir terurut. Algoritma ini sederhana untuk dipahami dan diimplementasikan. Tidak cocok untuk array yang besar karena kinerjanya yang lambat.
+
+```C++
+procedure insertionSort(A : list of sortable items)
+    n = length(A)
+    for i = 1 to n-1 do
+        key = A[i]
+        j = i - 1
+        while j >= 0 and A[j] > key do
+            A[j + 1] = A[j]
+            j = j - 1
+        end while
+        A[j + 1] = key
+    end for
+end procedure
+
+```
 
 
 ## Guided 
@@ -417,4 +449,4 @@ Fungsi dalam main:
 
 [2] M. N. Fakhruzzaman, Ika Qutsiati Utami, Purbandini, "BUKU AJAR ALGORITMA PEMROGRAMAN", Airlangga University Press, 2023.
 
-
+[3] Mark Allen Weiss, "Data Structures and Algorithm Analysis in C++", Pearson, 2014.
