@@ -114,7 +114,7 @@ int main() {
 
 
 ```
-Program di atas adalah 
+Program di atas adalah  implementasi algoritma insertion sort dalam bahasa C++. Algoritma ini digunakan untuk mengurutkan array secara berurutan dari yang terbesar hingga yang terkecil. Dalam implementasi ini, algoritma insertion sort digunakan untuk mengurutkan array a. Proses pengurutan dimulai dari elemen kedua dalam array, dan setiap elemen dibandingkan dengan elemen-elemen sebelumnya. Jika elemen saat ini lebih besar dari elemen sebelumnya, maka elemen tersebut akan "disisipkan" ke posisi yang sesuai di antara elemen-elemen sebelumnya. Proses ini diulang hingga semua elemen telah diproses, sehingga array akan terurut secara berurutan dari yang terbesar hingga yang terkecil.
 
 
 
