@@ -12,6 +12,22 @@ Selanjutnya, elemen kedua dibandingkan dengan elemen ketiga, dan seterusnya, hin
 Proses ini diulang untuk setiap elemen array, sehingga elemen terbesar akan "menggelembung" (bubble) ke posisi terakhir.
 Setelah iterasi pertama, elemen terbesar akan berada di posisi terakhir. Kemudian, proses dilakukan lagi untuk elemen-elemen yang belum terurut, kecuali elemen terakhir. Proses ini berlanjut hingga seluruh array terurut.
 
+```C++
+procedure bubbleSort(A : list of sortable items)
+    n = length(A)
+    repeat
+        swapped = false
+        for i = 1 to n-1 inclusive do
+            if A[i-1] > A[i] then
+                swap(A[i-1], A[i])
+                swapped = true
+            end if
+        end for
+        n = n - 1
+    until not swapped
+end procedure
+```
+
 ### 2. Selection Sorting
 Selection sort adalah perbaikan dari bubble sort, dengan mengurangi jumlah perbandingan [2]. Selection sort memilih satu per satu elemen data dari posisi awal, untuk mencari data terkecil dengan mencatat posisi index saja lalu dilakukan sekali pertukaran pada akhir dari setiap tahapan. selection sort merupakan metode pengurutan dengan mencari nilai data terkecil dimulai dari data di posisi 0 hingga di posisi N-1.
 
