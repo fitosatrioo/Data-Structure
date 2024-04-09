@@ -254,6 +254,25 @@ int main() {
 ```
 <p><b>Penjelasan:</b></p>
 
+Array namaWarga[]:
+
+Array namaWarga[] menyimpan nama-nama warga Pak RT dalam bentuk string.
+- Nilai-nilai yang disimpan dalam array tersebut adalah: {"siti", "situ", "sana", "ana", "ani", "caca", "cici", "dida", "dodo", "dadi"}.
+- Nama-nama warga tersebut tidak terurut secara alfabet.
+  
+Fungsi bubbleSort:
+- Fungsi ini merupakan implementasi algoritma Bubble Sort.
+- Menerima array string arr[] sebagai input, yang merupakan array yang akan diurutkan, dan int n yang menyatakan panjang array tersebut.
+- Dalam fungsi ini, terdapat dua loop bersarang:
+- Loop pertama (for (int i = 0; i < n - 1; i++)) berjalan sebanyak (n - 1) kali, menunjukkan jumlah iterasi yang diperlukan untuk mengurutkan seluruh array.
+- Loop kedua (for (int j = 0; j < n - i - 1; j++)) digunakan untuk membandingkan setiap pasangan elemen adjacent dan melakukan pertukaran jika diperlukan.
+- Proses pertukaran dilakukan jika nilai elemen pada indeks j lebih besar dari nilai elemen pada indeks j + 1.
+
+Fungsi dalam main:
+- Array namaWarga[] dideklarasikan dan diinisialisasi dengan nama-nama warga Pak RT yang belum terurut.
+- Panjang array namaWarga[] dihitung menggunakan ekspresi sizeof(namaWarga) / sizeof(namaWarga[0]) dan disimpan dalam variabel n.
+- Fungsi bubbleSort dipanggil untuk mengurutkan array namaWarga[].
+
 
 #### Output:
 
@@ -269,7 +288,6 @@ int main() {
 
 ```C++
 #include <iostream>
-#include <algorithm> // Untuk penggunaan fungsi sort()
 
 using namespace std;
 
@@ -280,6 +298,23 @@ void tampilAlfabet(const char alfabet[], int n) {
         cout << alfabet[i] << " ";
     }
     cout << endl;
+}
+
+// Fungsi untuk melakukan insertion sort)
+void insertionSort(char arr[], int n) {
+    int i, j;
+    char key;
+    for (i = 1; i < n; i++) {
+        key = arr[i];
+        j = i - 1;
+        // Pindahkan elemen dari arr[0..i-1] yang lebih besar dari key
+        // ke posisi satu di depan posisi mereka saat ini
+        while (j >= 0 && arr[j] < key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
 }
 
 int main() {
@@ -298,21 +333,8 @@ int main() {
     // Memanggil fungsi untuk menampilkan alfabet sebelum pengurutan
     tampilAlfabet(alfabet, n);
 
-    // Pengurutan alfabet secara menaik (ascending)
-    sort(alfabet, alfabet + n);
-
-    // Menampilkan hasil pengurutan menaik
-    cout << "\nHasil pengurutan menaik (ascending): ";
-    for (int i = 0; i < n; ++i) {
-        cout << alfabet[i] << " ";
-    }
-
-    // Pengurutan alfabet secara menurun (descending) tanpa menggunakan greater
-    for (int i = 0; i < n / 2; ++i) {
-        char temp = alfabet[i];
-        alfabet[i] = alfabet[n - i - 1];
-        alfabet[n - i - 1] = temp;
-    }
+    // Panggil fungsi insertion sort untuk mengurutkan alfabet secara menurun
+    insertionSort(alfabet, n);
 
     // Menampilkan hasil pengurutan menurun
     cout << "\nHasil pengurutan menurun (descending): ";
@@ -320,18 +342,31 @@ int main() {
         cout << alfabet[i] << " ";
     }
     
-    cout << "" << endl;
-    cout << "" << endl;
-    cout << "By: Fito Satrio (2311110030)" << endl;
+    cout << "\n\nBy: Fito Satrio (2311110030)" << endl;
 
     return 0;
 }
 
 
-
 ```
 <p><b>Penjelasan:</b></p>
 
+Fungsi tampilAlfabet:
+- Fungsi ini digunakan untuk menampilkan alfabet sebelum dilakukan pengurutan.
+- Menerima dua parameter, yaitu array const char alfabet[] yang berisi alfabet-alfabet yang akan ditampilkan dan integer n yang merupakan panjang array tersebut.
+- Melalui loop, setiap elemen alfabet akan ditampilkan ke layar.
+  
+Fungsi insertionSort:
+- Fungsi ini digunakan untuk melakukan pengurutan array menggunakan algoritma insertion sort secara menurun.
+- Menerima dua parameter, yaitu array char arr[] yang akan diurutkan dan integer n yang merupakan panjang array tersebut.
+- Algoritma insertion sort digunakan di dalam fungsi ini. Pada algoritma ini, elemen-elemen array akan disusun satu per satu dengan cara - membandingkan dengan elemen sebelumnya, dan jika ditemukan elemen yang lebih besar, maka akan dipindahkan ke posisi yang sesuai.
+
+Fungsi dalam main:
+- Meminta pengguna untuk memasukkan jumlah alfabet yang akan dimasukkan (n).
+- Array alfabet[] dideklarasikan dengan panjang n.
+- Menggunakan loop untuk meminta pengguna memasukkan alfabet sejumlah n.
+- Memanggil fungsi tampilAlfabet untuk menampilkan alfabet sebelum pengurutan.
+- Memanggil fungsi insertionSort untuk mengurutkan alfabet secara menurun.
 
 
 #### Output:
