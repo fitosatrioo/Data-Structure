@@ -178,19 +178,19 @@ int main() {
 ```
 <p><b>Penjelasan:</b></p>
 Inisialisasi Array IPS:
-Array ips[] dideklarasikan untuk menyimpan nilai-nilai IPS mahasiswa.
-Nilai-nilai ini adalah: {3.8, 2.9, 3.3, 4.0, 2.4}.
-Panggilan Fungsi selectionSort:
+- Array ips[] dideklarasikan untuk menyimpan nilai-nilai IPS mahasiswa.
+- Nilai-nilai ini adalah: {3.8, 2.9, 3.3, 4.0, 2.4}.
 
-Fungsi selectionSort dipanggil untuk mengurutkan nilai-nilai dalam array ips[].
-Panjang array ips[] adalah 5, sehingga panjang ini (n) disampaikan sebagai argumen ke dalam fungsi selectionSort.
+Fungsi selectionSort:
+- Fungsi selectionSort dipanggil untuk mengurutkan nilai-nilai dalam array ips[].
+- Panjang array ips[] adalah 5, sehingga panjang ini (n) disampaikan sebagai argumen ke dalam fungsi selectionSort.
+
 Algoritma Selection Sort:
-
-Algoritma Selection Sort dilakukan dalam fungsi selectionSort.
-Iterasi dimulai dari elemen pertama (i = 0) hingga elemen sebelum elemen terakhir (i < n - 1).
-Pada setiap iterasi, nilai maksimum diidentifikasi dalam sisa array yang belum diurutkan.
-Nilai maksimum tersebut kemudian ditukar dengan elemen pertama yang belum diurutkan.
-Proses ini diulang hingga seluruh array terurut.
+- Algoritma Selection Sort dilakukan dalam fungsi selectionSort.
+- Iterasi dimulai dari elemen pertama (i = 0) hingga elemen sebelum elemen terakhir (i < n - 1).
+- Pada setiap iterasi, nilai maksimum diidentifikasi dalam sisa array yang belum diurutkan.
+- Nilai maksimum tersebut kemudian ditukar dengan elemen pertama yang belum diurutkan.
+- Proses ini diulang hingga seluruh array terurut.
 
 #### Output:
 
