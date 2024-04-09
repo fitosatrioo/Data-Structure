@@ -177,6 +177,7 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+
 Inisialisasi Array IPS:
 - Array ips[] dideklarasikan untuk menyimpan nilai-nilai IPS mahasiswa.
 - Nilai-nilai ini adalah: {3.8, 2.9, 3.3, 4.0, 2.4}.
