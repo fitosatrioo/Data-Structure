@@ -443,9 +443,10 @@ Fungsi dalam main:
 
 ## Kesimpulan
 - ### Hasil Praktikum
+Praktikum kali ini membahas tentang algoritma sorting yang diantaranya adalah bubble sort, insertion sort, dan juga selection sort. Bubble Sort adalah algoritma pengurutan sederhana yang secara berulang membandingkan dan menukar elemen-elemen yang berdekatan jika mereka berada dalam urutan yang salah. kemudian Insertion Sort adalah algoritma pengurutan yang membagi array menjadi dua bagian: bagian yang sudah terurut dan bagian yang belum terurut. dan Selection Sort adalah algoritma pengurutan yang secara berulang memilih elemen dengan nilai terkecil dari bagian belum terurut dan menukarnya dengan elemen di awal bagian belum terurut.
 
 - ### Pelajaran yang didapat
-
+Dari algoritma sorting ini dapat membantu dalam memahami cara kerja dan efisiensi algoritma secara umum. Ini membantu dalam mengembangkan keterampilan analitis dan pemecahan masalah dalam pemrograman dan memilih algoritma yang tepat untuk aplikasi atau masalah tertentu. Setiap algoritma memiliki kelebihan dan kelemahan yang berbeda, dan pemahaman tentang hal ini memungkinkan untuk memilih algoritma yang paling sesuai dengan kebutuhan. Pemahaman tentang kompleksitas waktu algoritma sorting juga menekankan pentingnya efisiensi dalam pengembangan perangkat lunak. Dengan memilih dan mengimplementasikan algoritma yang efisien, program dapat berjalan lebih cepat dan menggunakan sumber daya yang lebih sedikit.
 
 ## Referensi
 [1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to Algorithms," 3rd ed. The MIT Press, 2009.
