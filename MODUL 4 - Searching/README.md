@@ -278,7 +278,17 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+kode diatas adalah contoh program yang menghitung jumlah dan frekuensi kemunculan huruf vokal dalam sebuah kalimat.
 
+Program dimulai dengan mendeklarasikan sebuah string kalimat_030 yang akan digunakan untuk menyimpan input kalimat dari pengguna.
+Selanjutnya, sebuah array frekuensiVokal_030 dengan panjang 5 digunakan untuk menyimpan frekuensi kemunculan masing-masing huruf vokal (a, i, u, e, o).
+Fungsi hitungVokal_030() dibuat untuk menghitung jumlah dan frekuensi huruf vokal dalam kalimat yang diberikan.
+Di dalam fungsi hitungVokal_030(), dilakukan iterasi untuk setiap karakter dalam kalimat.
+Setiap karakter diuji untuk menentukan apakah itu adalah huruf vokal. Jika iya, maka frekuensi kemunculan huruf vokal tersebut diinkremen dan jumlah huruf vokal juga ditambah.
+Setelah iterasi selesai, fungsi mengembalikan jumlah total huruf vokal dalam kalimat.
+Di dalam fungsi main(), program meminta pengguna untuk memasukkan sebuah kalimat.
+Kemudian, program memanggil fungsi hitungVokal_030() untuk menghitung jumlah dan frekuensi huruf vokal dalam kalimat tersebut.
+Setelah perhitungan selesai, program menampilkan frekuensi kemunculan masing-masing huruf vokal, serta jumlah total huruf vokal dalam kalimat.
 
 
 #### Output:
@@ -328,7 +338,17 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+kode diatas adalah contoh program yang menggunakan algoritma sequential search untuk menghitung jumlah kemunculan angka 4 dalam sebuah array.
 
+Program dimulai dengan mendeklarasikan sebuah array data_030 yang berisi sekumpulan bilangan bulat.
+Variabel n_030 digunakan untuk menyimpan panjang array data_030.
+Variabel target_030 didefinisikan untuk menyimpan angka yang ingin dicari dalam array.
+Fungsi sequentialSearch_030() dibuat untuk melakukan pencarian sekuensial dalam array.
+Di dalam fungsi sequentialSearch_030(), dilakukan iterasi untuk setiap elemen dalam array.
+Setiap elemen diuji untuk menentukan apakah itu sama dengan angka 4. Jika iya, variabel count_030 diinkremen.
+Setelah iterasi selesai, fungsi mengembalikan jumlah kemunculan angka 4 dalam array.
+Di dalam main(), program memanggil fungsi sequentialSearch_030() untuk menghitung jumlah kemunculan angka 4 dalam array.
+Setelah perhitungan selesai, program menampilkan jumlah kemunculan angka 4.
 
 #### Output:
 
