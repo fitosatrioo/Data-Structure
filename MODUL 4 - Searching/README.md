@@ -141,6 +141,7 @@ dan fungsi binary_search() untuk melakukan pencarian biner dalam array yang suda
 ```C++
 #include <iostream>
 #include <string>
+#include <algorithm> // Inklusi untuk menggunakan fungsi transform()
 using namespace std;
 
 // Fungsi untuk melakukan pencarian biner pada sebuah string
@@ -172,7 +173,7 @@ int main() {
     int index_030;
 
     // Ubah kalimat menjadi huruf kecil untuk pencarian yang tidak peka huruf besar/kecil
-    transform(kalimat_030.begin(), kalimat_030.end(), kalimat_030.begin(), ::tolower);
+    std::transform(kalimat_030.begin(), kalimat_030.end(), kalimat_030.begin(), ::tolower);
 
     // Lakukan pencarian menggunakan binary search
     if (binarySearch(kalimat_030, target_030, index_030)) {
@@ -187,6 +188,7 @@ int main() {
 
     return 0;
 }
+
 
 ```
 <p><b>Penjelasan:</b></p>
