@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul Sorting</h1>
+# <h1 align="center">Laporan Praktikum Modul Searching</h1>
 <p align="center">Fito Satrio</p>
 <p align="center">2311110030</p>
 
@@ -190,6 +190,16 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+Program dimulai dengan mendefinisikan sebuah string kalimat_030 yang berisi kalimat atau teks yang akan dicari.
+Kemudian, sebuah karakter target_030 juga didefinisikan untuk menentukan karakter yang akan dicari dalam string kalimat_030.
+Fungsi binarySearch() dibuat untuk melakukan pencarian biner pada string kalimat_030 terhadap karakter target_030.
+Dalam fungsi binarySearch(), pencarian biner dilakukan dengan membagi string menjadi dua bagian, kemudian membandingkan karakter yang dicari dengan karakter di tengah string.
+Jika karakter yang dicari ditemukan pada indeks mid_030, maka indeks tersebut disimpan dalam variabel index_030 dan fungsi mengembalikan true untuk menandakan karakter ditemukan.
+Jika karakter yang dicari lebih kecil dari karakter di tengah, maka pencarian dilanjutkan di sebelah kanan karakter tengah.
+Jika karakter yang dicari lebih besar dari karakter di tengah, maka pencarian dilanjutkan di sebelah kiri karakter tengah.
+Jika karakter tidak ditemukan setelah loop selesai, maka fungsi mengembalikan false untuk menandakan karakter tidak ditemukan.
+Di dalam fungsi main(), program memanggil fungsi binarySearch() untuk mencari karakter target_030 dalam string kalimat_030.
+Setelah pencarian selesai, program menampilkan pesan apakah karakter ditemukan atau tidak, beserta indeks karakter tersebut jika ditemukan.
 
 
 #### Output:
