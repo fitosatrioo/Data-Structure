@@ -4,15 +4,18 @@
 
 ## Dasar Teori
 <div style="text-align: justify">
-Algoritma searching adalah 
+Algoritma searching adalah adalah suatu prosedur atau langkah-langkah yang digunakan untuk menemukan lokasi atau keberadaan suatu elemen tertentu dalam sebuah kumpulan data. Ini bisa berupa array, list, atau struktur data lainnya [1]. Algoritma pencarian merupakan bagian penting dalam ilmu komputer dan digunakan dalam berbagai aplikasi, mulai dari pencarian data dalam basis data hingga operasi pencarian dalam algoritma pemrosesan teks.
 
 ### 1. Sequential Search
-sequential search adalah
+sequential search adalah algoritma pencarian sederhana yang digunakan untuk menemukan keberadaan suatu nilai dalam kumpulan data. Algoritma ini bekerja dengan memeriksa setiap elemen dalam urutan berurutan, mulai dari elemen pertama hingga elemen terakhir, sampai elemen yang dicari ditemukan atau kumpulan data selesai diproses.
+
+Meskipun sederhana, sequential search memiliki kompleksitas waktu O(n), di mana n adalah jumlah elemen dalam kumpulan data. Ini berarti waktu yang diperlukan untuk menemukan elemen dalam kumpulan data sebanding dengan jumlah elemen dalam kumpulan data. Oleh karena itu, meskipun cocok untuk kumpulan data kecil atau tidak terurut, sequential search cenderung tidak efisien untuk kumpulan data besar.
 
 
 
 ### 2. Binary Search
-binary search adalah
+binary search adalah algoritma pencarian yang efisien digunakan untuk mencari elemen tertentu dalam sebuah kumpulan data yang sudah terurut. Algoritma ini bekerja dengan membagi kumpulan data menjadi dua bagian secara terus menerus dan memeriksa elemen tengahnya. Jika elemen tengah sama dengan elemen yang dicari, pencarian selesai [2]. Jika tidak, algoritma akan memilih bagian kumpulan data yang mungkin mengandung elemen yang dicari berdasarkan nilai elemen tengah tersebut, dan mengulangi proses pencarian di bagian tersebut.
+Keuntungan dari binary search adalah waktu eksekusi yang cepat karena setiap iterasi membagi kumpulan data menjadi setengahnya. Namun, syarat utama agar binary search dapat digunakan adalah kumpulan data harus sudah terurut, baik secara menaik maupun menurun.
 
 ## Guided 
 
@@ -370,12 +373,7 @@ Praktikum kali ini membahas tentang algoritma
 Dari algoritma 
 
 ## Referensi
-[1] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to Algorithms," 3rd ed. The MIT Press, 2009.
+[1] Robert Sedgewick and Kevin Wayne, "Algorithms 4th Edition", Addison Wesley, 2011.
 
-[2] M. N. Fakhruzzaman, Ika Qutsiati Utami, Purbandini, "BUKU AJAR ALGORITMA PEMROGRAMAN", Airlangga University Press, 2023.
+[2] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to Algorithms", 3rd ed. The MIT Press, 2009.
 
-[3] Mark Allen Weiss, "Data Structures and Algorithm Analysis in C++ 4th Edition", Pearson, 2014.
-
-[4] Anisya Sonita dan Febrian Nurtaneo, "ANALISIS PERBANDINGAN ALGORITMA BUBBLE SORT, MERGE SORT, DAN QUICK SORT DALAM PROSES PENGURUTAN KOMBINASI ANGKA DAN HURUF", Jurnal Pseudocode, 2015.
-
-[5] Wahyu Fahmy Wisudawan, "Kompleksitas Algoritma Sorting yang Populer Dipakai", Rinaldi Munir, 2007.
