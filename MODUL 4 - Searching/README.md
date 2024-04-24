@@ -200,11 +200,11 @@ Setelah pencarian selesai, program menampilkan pesan apakah karakter ditemukan a
 
 
 #### Output:
-
+![Screenshot (1244)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/1949733a-9008-42a3-b076-ab04b1fe1f37)
 
 
 #### Full Screenshoot Code:
-
+![Screenshot (1247)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/58e49e6b-aa63-497e-801b-44176eda4082)
 
 
 
@@ -294,11 +294,11 @@ Setelah perhitungan selesai, program menampilkan frekuensi kemunculan masing-mas
 
 
 #### Output:
-
+![Screenshot (1245)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/ea2029e8-6543-47ab-a53e-7a52c7ca3431)
 
 
 #### Full Screenshoot Code:
-
+![Screenshot (1248)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/8f89fce4-794b-44aa-9a39-9505d34e8859)
 
 
 
@@ -353,10 +353,10 @@ Di dalam main(), program memanggil fungsi sequentialSearch_030() untuk menghitun
 Setelah perhitungan selesai, program menampilkan jumlah kemunculan angka 4.
 
 #### Output:
-
+![Screenshot (1246)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/fe104287-01a0-49e4-b2bc-15079a88ac6c)
 
 #### Full Screenshoot Code:
-
+![Screenshot (1249)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/7064c06a-d396-4906-bea7-e23851f51e94)
 
 
 
