@@ -256,10 +256,12 @@ Setelah selesai memasukkan data untuk semua buku, program menampilkan deskripsi 
 
 
 #### Output:
+![Screenshot (1265)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/15c4d2ac-16ea-4a6a-a14d-36e42c23b981)
+![Screenshot (1266)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/4b17f325-a6a3-405b-8552-a455395e17f0)
 
 
 #### Full Screenshoot Code:
-
+![Screenshot (1267)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/12abfba1-9374-4eb5-8dd6-81fe3bc4e7c0)
 
 
 
