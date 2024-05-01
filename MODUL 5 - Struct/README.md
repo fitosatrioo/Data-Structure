@@ -3,10 +3,9 @@
 <p align="center">2311110030</p>
 
 ## Dasar Teori
-<div style="text-align: justify">
+
 Struct merupakan sebuah fitur yang memungkinkan pengguna untuk mendefinisikan sebuah tipe data baru yang terdiri dari beberapa anggota yang berbeda. Setiap anggota ini dapat memiliki tipe data yang berbeda pula. Secara umum, struct digunakan untuk mengelompokkan data terkait menjadi satu unit yang lebih besar. Kata kunci struct memberi tahu kompiler bahwa template struktur sedang ditentukan, yang dapat digunakan untuk membuat variabel struktur. Bidang-bidang yang membentuk struktur disebut anggota atau elemen struktur. Semua elemen dalam suatu struktur secara logis berhubungan satu sama lain. 
-
-
+	
 Setiap variabel dalam struct memiliki tipe data tertentu, yang bisa berupa tipe data primitif seperti int, float, char, atau bahkan tipe data yang lebih kompleks seperti string, array, atau struct lainnya [1]. Variabel dalam sebuah struct memungkinkan kita untuk mengorganisir dan mengelola data dengan cara yang lebih terstruktur dalam program. Variabel ini memungkinkan kita untuk menggabungkan berbagai jenis data terkait ke dalam satu unit yang dapat dengan mudah diakses dan dimanipulasi.
 	
 ## Guided 
