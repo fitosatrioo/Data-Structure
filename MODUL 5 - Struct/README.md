@@ -4,7 +4,7 @@
 
 ## Dasar Teori
 <div style="text-align: justify">
-Struct adalah
+Struct merupakan sebuah fitur yang memungkinkan pengguna untuk mendefinisikan sebuah tipe data baru yang terdiri dari beberapa anggota yang berbeda. Setiap anggota ini dapat memiliki tipe data yang berbeda pula. Secara umum, struct digunakan untuk mengelompokkan data terkait menjadi satu unit yang lebih besar. Kata kunci struct memberi tahu kompiler bahwa templat struktur sedang ditentukan, yang dapat digunakan untuk membuat variabel struktur. Bidang-bidang yang membentuk struktur disebut anggota atau elemen struktur. Semua elemen dalam suatu struktur secara logis berhubungan satu sama lain. Setiap variabel dalam struct memiliki tipe data tertentu, yang bisa berupa tipe data primitif seperti int, float, char, atau bahkan tipe data yang lebih kompleks seperti string, array, atau struct lainnya [1].
 	
 ## Guided 
 
@@ -236,7 +236,7 @@ Praktikum kali ini membahas tentang algoritma searching yang terdiri dari dua ya
 Dari algoritma searching ini membantu kita menemukan elemen tertentu dalam sebuah himpunan data dengan efisien. Pengetahuan tentang berbagai algoritma searching memungkinkan kita untuk memilih metode yang paling sesuai dengan kebutuhan spesifik aplikasi. Terdapat berbagai macam algoritma searching, seperti sequential search, binary search, interpolation search, dan lain-lain. Setiap algoritma memiliki karakteristik, kompleksitas, dan kondisi penggunaan yang berbeda. Analisis Kompleksitas: Penting untuk memahami kompleksitas waktu dan ruang dari setiap algoritma searching. Dengan demikian, kita dapat memilih algoritma yang paling efisien tergantung pada ukuran data dan keterbatasan sumber daya yang ada.
 
 ## Referensi
-[1] Robert Sedgewick and Kevin Wayne, "Algorithms 4th Edition", Addison Wesley, 2011.
+[1] A. D. Samala, B. Ramadhani, F. Ranurja, Pemrograman C++, Padang: UNP Press, 2021. 
 
 [2] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, "Introduction to Algorithms", 3rd ed. The MIT Press, 2009.
 
