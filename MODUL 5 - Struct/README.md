@@ -278,13 +278,14 @@ kode diatas adalah
 
 ## Kesimpulan
 - ### Hasil Praktikum
-Praktikum kali ini membahas tentang algoritma searching yang terdiri dari dua yaitu linear search dan binary search. keduanya kerap sekali digunakan dalam sebuah program. hanya saja linear search sangat lama karena harus mencari secara terurut secara satu - satu dan itu sangat membutuhkan waktu yang lama. Beda halnya dengan binary search, algoritma ini lebih cepat karena hanya mencari dari nilai tengahnya saja.
+Praktikum kali ini membahas 
 
 - ### Pelajaran yang didapat
-Dari algoritma searching ini membantu kita menemukan elemen tertentu dalam sebuah himpunan data dengan efisien. Pengetahuan tentang berbagai algoritma searching memungkinkan kita untuk memilih metode yang paling sesuai dengan kebutuhan spesifik aplikasi. Terdapat berbagai macam algoritma searching, seperti sequential search, binary search, interpolation search, dan lain-lain. Setiap algoritma memiliki karakteristik, kompleksitas, dan kondisi penggunaan yang berbeda. Analisis Kompleksitas: Penting untuk memahami kompleksitas waktu dan ruang dari setiap algoritma searching. Dengan demikian, kita dapat memilih algoritma yang paling efisien tergantung pada ukuran data dan keterbatasan sumber daya yang ada.
+Dari 
 
 ## Referensi
 [1] S. N Mohanty, P. K. Tripathy, Data Structure and Algorithms Using C++ A Practical Implementation, USA: Wiley, 2021.
+
 [2] A. D. Samala, B. Ramadhani, F. Ranurja, Pemrograman C++, Padang: UNP Press, 2021. 
 
 
