@@ -62,7 +62,24 @@ return 0;
 
 
 ```
-Program di atas adalah 
+Program di atas adalah contoh sederhana dari penggunaan struktur (struct) dalam bahasa pemrograman C++. Program ini membuat sebuah struktur bernama buku yang memiliki lima anggota: JudulBuku (Menyimpan judul buku dalam bentuk string), pengarang (Menyimpan nama pengarang buku dalam bentuk string), penerbit (Menyimpan nama penerbit buku dalam bentuk string), tebalHalaman (Menyimpan jumlah halaman buku dalam bentuk bilangan bulat), dan hargaBuku (Menyimpan harga buku dalam bentuk bilangan bulat).
+
+Setelah mendefinisikan struktur buku, program kemudian membuat dua objek dari struktur tersebut, yaitu mybook dan mybook2. Setiap objek ini merepresentasikan sebuah buku dengan data yang berbeda.
+
+Data buku pertama (mybook) adalah sebagai berikut:
+
+Judul Buku: "Harry Potter"
+Pengarang: "J.K Rowling"
+Penerbit: "Scholastic Press"
+Tebal Halaman: 870
+Harga Buku: 2,000,000
+Sedangkan data buku kedua (mybook2) adalah sebagai berikut:
+
+Judul Buku: "Kata"
+Pengarang: "Tere Liye"
+Penerbit: "Scholastic Press"
+Tebal Halaman: 250
+Harga Buku: 3,500,000
 
 ### Guided 2 
 
