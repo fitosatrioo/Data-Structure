@@ -67,18 +67,26 @@ Program di atas adalah contoh sederhana dari penggunaan struktur (struct) dalam 
 Setelah mendefinisikan struktur buku, program kemudian membuat dua objek dari struktur tersebut, yaitu mybook dan mybook2. Setiap objek ini merepresentasikan sebuah buku dengan data yang berbeda.
 
 Data buku pertama (mybook) adalah sebagai berikut:
-
 Judul Buku: "Harry Potter"
+
 Pengarang: "J.K Rowling"
+
 Penerbit: "Scholastic Press"
+
 Tebal Halaman: 870
+
 Harga Buku: 2,000,000
+
 Sedangkan data buku kedua (mybook2) adalah sebagai berikut:
 
 Judul Buku: "Kata"
+
 Pengarang: "Tere Liye"
+
 Penerbit: "Scholastic Press"
+
 Tebal Halaman: 250
+
 Harga Buku: 3,500,000
 
 ### Guided 2 
