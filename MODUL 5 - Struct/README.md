@@ -171,7 +171,17 @@ int main() {
 }
 
 ```
-Program di atas adalah
+Program ini adalah contoh sederhana dari penggunaan struktur data dalam pemrograman C++. Struktur data digunakan untuk mengelompokkan beberapa variabel yang memiliki hubungan dan membentuk suatu entitas yang lebih besar.
+
+Di dalam program ini, terdapat tiga buah struktur data yang didefinisikan:
+
+struct hewan: Struktur data ini berisi informasi umum tentang hewan, seperti nama hewan, jenis kelamin, cara berkembang biak, alat pernafasan, tempat hidup, dan apakah hewan tersebut karnivora atau bukan.
+
+struct hewanDarat: Struktur data ini merupakan turunan dari hewan dan menambahkan informasi khusus untuk hewan darat, seperti jumlah kaki, apakah hewan tersebut menyusui, dan suara yang dihasilkan.
+
+struct hewanLaut: Struktur data ini juga merupakan turunan dari hewan namun memiliki informasi spesifik untuk hewan laut, seperti bentuk sirip dan cara pertahanan diri.
+
+Setelah mendefinisikan struktur data, program kemudian membuat dua objek: hewan_darat1 dan hewan_laut1 yang merupakan instansi dari hewanDarat dan hewanLaut masing-masing. Program kemudian mengisi data untuk kedua objek tersebut.
 
 
 ## Unguided 
