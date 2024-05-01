@@ -90,6 +90,8 @@ Sedangkan data buku kedua (mybook2) adalah sebagai berikut:
 
 - Harga Buku: 3,500,000
 
+Setelah data diinisialisasi, program menampilkan deskripsi buku ke layar menggunakan perintah cout. Setiap anggota dari setiap objek mybook dan mybook2 diakses dan ditampilkan secara terpisah. Ini memungkinkan kita untuk melihat detail seperti judul buku, pengarang, penerbit, jumlah halaman, dan harga buku untuk kedua objek tersebut.
+
 ### Guided 2 
 
 ```C++
