@@ -245,7 +245,13 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+Program di atas adalah sebuah contoh sederhana tentang bagaimana menggunakan struktur data  untuk menyimpan informasi tentang beberapa buku. Program ini memanfaatkan struktur data buku yang memiliki beberapa array untuk menyimpan informasi tentang judul buku, pengarang, penerbit, tebal halaman, dan harga buku untuk hingga lima buku.
 
+Pertama-tama, di dalam fungsi main(), sebuah objek mybook dari tipe buku dibuat.
+
+Selanjutnya, program meminta pengguna untuk memasukkan data untuk masing-masing buku menggunakan loop for. Di dalam loop tersebut, program meminta pengguna untuk memasukkan judul buku, nama pengarang, nama penerbit, tebal halaman, dan harga buku. Data yang dimasukkan oleh pengguna disimpan ke dalam array yang sesuai di dalam objek mybook.
+
+Setelah selesai memasukkan data untuk semua buku, program menampilkan deskripsi dari setiap buku yang telah dimasukkan menggunakan loop for. Program mencetak judul buku, nama pengarang, nama penerbit, tebal halaman, dan harga buku untuk setiap buku.
 
 
 
