@@ -273,7 +273,13 @@ Setelah selesai memasukkan data untuk semua buku, program menampilkan deskripsi 
 
 
 <p><b>Penjelasan:</b></p>
-kode diatas adalah 
+Jika variabel struct yang dibuat pada tugas guided I berjenis array maka akan menghasilkan array yang setiap elemennya merupakan struct. Ini memungkinkan menyimpan banyak data dengan tipe data yang sama dalam satu struktur. Contohnya dapat dilihat pada unguided satu, dimana variabel dideklarasikan sebagai array dengan 5 elemen, yang setiap elemen berupa struct berisi data buku dari 5 buku berbeda. 
+
+Ketika variabel struct yang dibuat pada tugas guided I dideklarasikan sebagai array, maka kita akan memiliki sebuah array di mana setiap elemennya adalah sebuah struct yang berisi data yang terdefinisi dalam struktur tersebut. Misalnya, jika kita menggunakan contoh dari tugas guided I yang memiliki variabel struct hewan, kita dapat mendeklarasikan array dari struct tersebut, seperti hewan array_hewan[5];. Ini akan menghasilkan sebuah array yang dapat menyimpan data tentang beberapa hewan dalam satu struktur.
+
+Proses pengisian data pada array tersebut dilakukan dengan cara mengakses setiap elemen array secara berurutan dan mengisi nilai atribut-atribut yang sesuai untuk setiap hewan. Misalnya, jika atribut dari struct hewan adalah Nama_hewan, Jenis_kelamin, cara_berkembangbiak, dan seterusnya, maka setiap elemen array akan diisi dengan data-data tersebut sesuai dengan informasi yang dimiliki oleh hewan yang bersangkutan.
+
+Untuk menampilkan data yang disimpan dalam array tersebut, kita dapat menggunakan perulangan (seperti loop for) untuk mengakses setiap elemen array dan menampilkan nilai atribut-atributnya dengan menggunakan fungsi cout. Dengan menggunakan loop, kita bisa menampilkan informasi tentang setiap hewan dalam array secara berurutan.
 
 
 ## Kesimpulan
