@@ -284,10 +284,10 @@ Untuk menampilkan data yang disimpan dalam array tersebut, kita dapat menggunaka
 
 ## Kesimpulan
 - ### Hasil Praktikum
-Praktikum kali ini membahas 
+Praktikum kali ini membahas tentang struct yang merupakan sebuah fitur yang dapat menyimpan sebuah variabel dengan tipe data yang berbeda - beda. dari guided 1 dan 2 kita mempelajari satu kelas struct dan multiclass struct yang dapat berhubungan dengan kelas struct yang lainnya. kita dapat lihat pada guided 2, untuk menghubungkannya kita menggunakan variabel hewan_info.
 
 - ### Pelajaran yang didapat
-Dari 
+Dari struct memungkinkan pengelompokan data terkait menjadi satu unit yang disebut sebagai tipe data baru. Ini memudahkan pengorganisasian data dalam program. Struct dapat memiliki atribut (variabel) dan metode (fungsi) yang memungkinkan untuk memanipulasi dan mengakses data yang terkandung di dalamnya. Struct dapat digunakan dalam berbagai konteks, dari representasi objek dalam pemrograman berorientasi objek hingga penyimpanan data terstruktur dalam program yang lebih umum. Dengan struct, kita dapat membuat representasi data yang kompleks dan terstruktur, yang memudahkan dalam manajemen dan pengolahan data.
 
 ## Referensi
 [1] S. N Mohanty, P. K. Tripathy, Data Structure and Algorithms Using C++ A Practical Implementation, USA: Wiley, 2021.
