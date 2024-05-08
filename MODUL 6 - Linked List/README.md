@@ -4,11 +4,12 @@
 
 ## Dasar Teori
 
-Linked list merupakan suatu struktur data yang terdiri dari serangkaian node yang saling terhubung. Setiap node menyimpan sebuah elemen data dan referensi atau pointer ke node berikutnya dalam urutan. Ini berbeda dengan array, di mana elemen-elemen data disimpan secara berurutan dalam memori.
+Linked list merupakan suatu struktur data yang terdiri dari serangkaian node yang saling terhubung. Setiap node menyimpan sebuah elemen data dan referensi atau pointer ke node berikutnya dalam urutan. Ini berbeda dengan array, di mana elemen-elemen data disimpan secara berurutan dalam memori. Linked List memiliki keunggulan dibandingkan Array dalam halmenambahkan dan mengurangi elemennya [1].
 
 Ada beberapa jenis linked list, tetapi yang paling umum adalah single linked list dan double linked list. Dalam single linked list, setiap node memiliki satu pointer yang menunjuk ke node berikutnya dalam urutan. Ini membuat akses linier ke elemen-elemen dalam linked list, karena Anda harus melalui setiap node dari awal untuk mencapai elemen yang diinginkan. berbeda dengan double linked list yang menambahkan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya.
 
 ## A. Single Linked List
+Single linked list merupakan struktur data linier yang terdiri dari serangkaian elemen data yang disusun dalam urutan linier. Setiap elemen dalam single linked list disebut "node" dan terdiri dari dua bagian: data itu sendiri dan referensi atau pointer ke node berikutnya dalam urutan [2]. Single linked list sangat penting dalam pemrograman karena fleksibilitasnya dalam penambahan dan penghapusan elemen. Ketika elemen baru ditambahkan ke linked list, ia dapat ditempatkan di mana saja dalam memori, dan pointer dari node sebelumnya diperbarui untuk menunjuk ke elemen baru. 
 
 ```r
    HEAD
@@ -16,9 +17,10 @@ Ada beberapa jenis linked list, tetapi yang paling umum adalah single linked lis
 [ data | next ] -> [ data | next ] -> [ data | next ] -> NULL
 
 ```
-Di sini, "HEAD" adalah pointer yang menunjuk ke node pertama dalam linked list. Setiap node terdiri dari dua bagian: bagian pertama menyimpan elemen data, dan bagian kedua adalah pointer yang menunjuk ke node berikutnya. Node terakhir dalam linked list memiliki pointer bernilai NULL, menunjukkan akhir dari linked list.
+Di sini, "HEAD" adalah pointer yang menunjuk ke node pertama dalam linked list. Setiap node terdiri dari dua bagian: bagian pertama menyimpan elemen data, dan bagian kedua adalah pointer yang menunjuk ke node berikutnya [3]. Node terakhir dalam linked list memiliki pointer bernilai NULL, menunjukkan akhir dari linked list.
 
 ## B. Double Linked List
+Double linked list adalah struktur data linier yang terdiri dari serangkaian node, di mana setiap node memiliki dua bagian utama: data yang disimpan dan dua pointer. Pointer pertama menunjuk ke node sebelumnya dalam urutan, dan pointer kedua menunjuk ke node berikutnya dalam urutan. Ini memungkinkan navigasi maju dan mundur dalam linked list dengan mudah.
 
 ```r
    HEAD
@@ -1050,12 +1052,32 @@ tampilkan(): Menampilkan semua produk beserta harganya.
 Praktikum kali ini membahas tentang single linked list yang merupakan suatu bentuk struktur data yang berisi kumpulan data yang disebut sebagai node yang tersusun secara sekuensial kemudian Double Linked List yang merupakan struktur data Linked List yang mirip dengan Single Linked List, namun dengan tambahan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya
 
 - ### Pelajaran yang didapat
+Single linked list
 
+Kelebihan:
+Implementasi sederhana dan lebih ringan karena setiap node hanya perlu menyimpan satu pointer.
+Cocok untuk aplikasi di mana navigasi maju cukup, seperti antrian (queue) dan stack.
+
+Kekurangan:
+Tidak mendukung navigasi mundur secara langsung, yang dapat mengakibatkan kinerja yang kurang efisien dalam beberapa operasi.
+Operasi seperti menghapus elemen terakhir dalam linked list memerlukan waktu O(n), di mana n adalah jumlah elemen dalam linked list.
+
+Double linked list
+
+kelebihan:
+Mendukung navigasi maju dan mundur, sehingga lebih efisien untuk operasi-operasi yang memerlukan penelusuran maju dan mundur.
+Operasi penghapusan elemen dari akhir linked list menjadi lebih efisien dengan memiliki pointer ke node sebelumnya.
+
+Kekurangan:
+Memerlukan lebih banyak ruang memori karena setiap node harus menyimpan dua pointer tambahan.
+Implementasi yang lebih kompleks dibandingkan dengan single linked list.
 
 ## Referensi
-[1] S. N Mohanty, P. K. Tripathy, Data Structure and Algorithms Using C++ A Practical Implementation, USA: Wiley, 2021.
+[1] Hermawan Wijaya, Wibisono Sukmo Wardhono, Issa Arwani, "Implementasi Linked List pada Interaksi Antar Marker Augmented Reality untuk Operand dan Operator Aritmatika", Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer, 2018.
 
-[2] A. D. Samala, B. Ramadhani, F. Ranurja, Pemrograman C++, Padang: UNP Press, 2021. 
+[2] Felix Andreas Sutanto, "Panduan Praktis Pemrograman Visual Berbasis C++", Yogyakarta; 2021.
+
+[3] M.A. Eljinini, "Practical Data Structures with C++, C#, and Java", Lulu.com, 2020.
 
 
 
