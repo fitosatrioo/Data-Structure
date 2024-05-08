@@ -264,7 +264,19 @@ int main(){
     return 0;
 }
 ```
-Program diatas merupakan implementasi dari struktur data single linked list non-circular dan setiap node memiliki pointer yang menunjukkan ke node berikutnya dalam list. Program ini melakukan serangkaian operasi pengujian terhadap fungsi-fungsi tersebut, seperti menambahkan, menghapus, dan mengubah nilai dari node-node dalam list. dengan penjelasan sebagai berikut: isEmpty() berguna untuk memeriksa apakah list kosong, insertDepan(int nilai) untuk Menambahkan node baru dengan nilai tertentu di bagian depan list, insertBelakang(int nilai) untuk menambahkan node baru dengan nilai tertentu di bagian belakang list, hitungList() untuk Menghitung jumlah node dalam list, insertTengah(int data, int posisi) untuk menambahkan node baru dengan nilai tertentu pada posisi tengah tertentu dalam list, hapusDepan() untuk menghapus node pertama dari list, hapusBelakang() untuk menghapus node terakhir dari list, hapusTengah(int posisi) untuk menghapus node pada posisi tengah tertentu dari list, ubahDepan(int data) untuk mengubah nilai data dari node pertama, ubahTengah(int data, int posisi) untuk mengubah nilai data dari node pada posisi tengah tertentu, ubahBelakang(int data) untuk mengubah nilai data dari node terakhir, dan clearList() untuk menghapus semua node dari list.
+Program diatas merupakan implementasi dari struktur data single linked list non-circular dan setiap node memiliki pointer yang menunjukkan ke node berikutnya dalam list. Program ini melakukan serangkaian operasi pengujian terhadap fungsi-fungsi tersebut, seperti menambahkan, menghapus, dan mengubah nilai dari node-node dalam list. dengan penjelasan sebagai berikut: 
+- isEmpty() berguna untuk memeriksa apakah list kosong
+- insertDepan(int nilai) untuk Menambahkan node baru dengan nilai tertentu di bagian depan list
+- insertBelakang(int nilai) untuk menambahkan node baru dengan nilai tertentu di bagian belakang list
+- hitungList() untuk Menghitung jumlah node dalam list
+- insertTengah(int data, int posisi) untuk menambahkan node baru dengan nilai tertentu pada posisi tengah tertentu dalam list
+- hapusDepan() untuk menghapus node pertama dari list
+- hapusBelakang() untuk menghapus node terakhir dari list
+- hapusTengah(int posisi) untuk menghapus node pada posisi tengah tertentu dari list
+- ubahDepan(int data) untuk mengubah nilai data dari node pertama
+- ubahTengah(int data, int posisi) untuk mengubah nilai data dari node pada posisi tengah tertentu
+- ubahBelakang(int data) untuk mengubah nilai data dari node terakhir
+- clearList() untuk menghapus semua node dari list.
 
 
 ### Guided 2 
