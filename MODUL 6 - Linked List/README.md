@@ -4,7 +4,7 @@
 
 ## Dasar Teori
 
-Linked list merupakan suatu struktur data yang terdiri dari serangkaian node yang saling terhubung. Setiap node menyimpan sebuah elemen data dan referensi atau pointer ke node berikutnya dalam urutan. Ini berbeda dengan array, di mana elemen-elemen data disimpan secara berurutan dalam memori. Linked List memiliki keunggulan dibandingkan Array dalam halmenambahkan dan mengurangi elemennya [1].
+Linked list merupakan suatu struktur data yang terdiri dari serangkaian node yang saling terhubung. Setiap node menyimpan sebuah elemen data dan referensi atau pointer ke node berikutnya dalam urutan. Ini berbeda dengan array, di mana elemen-elemen data disimpan secara berurutan dalam memori. Linked List memiliki keunggulan dibandingkan Array dalam hal menambahkan dan mengurangi elemennya [1].
 
 Ada beberapa jenis linked list, tetapi yang paling umum adalah single linked list dan double linked list. Dalam single linked list, setiap node memiliki satu pointer yang menunjuk ke node berikutnya dalam urutan. Ini membuat akses linier ke elemen-elemen dalam linked list, karena Anda harus melalui setiap node dari awal untuk mencapai elemen yang diinginkan. berbeda dengan double linked list yang menambahkan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya.
 
