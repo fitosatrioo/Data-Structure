@@ -700,7 +700,14 @@ int main() {
 }
 ```
 <p><b>Penjelasan:</b></p>
-
+Program ini meminta input dari pengguna untuk menambahkan data mahasiswa ke linked list, menampilkan data mahasiswa, menghapus data mahasiswa, menyisipkan data di antara dua mahasiswa, menambahkan data di awal linked list, dan mengubah data mahasiswa. Setelah setiap operasi, program akan menampilkan data mahasiswa terbaru. dengan penjelasan sebagai berikut:
+- tambahDepan(string nama, int usia) untuk menambahkan node baru di depan linked list dengan nama dan usia mahasiswa yang diberikan.
+- tambahBelakang(string nama, int usia) untuk menambahkan node baru di belakang linked list dengan nama dan usia mahasiswa yang diberikan.
+- tampilkan() untuk menampilkan isi linked list, yaitu nama dan usia semua mahasiswa.
+- hapus(string nama) untuk menghapus node dengan nama mahasiswa yang diberikan dari linked list.
+- sisipDiAntara(string nama_awal, string nama_akhir, string nama, int usia) untuk menyisipkan node baru di antara dua node yang sudah ada, yaitu di antara dua nama mahasiswa yang diberikan.
+- tambahDiAwal(string nama, int usia) untuk menambahkan node baru di awal linked list dengan nama dan usia mahasiswa yang diberikan.
+- ubahData(string nama_lama, string nama_baru, int usia_baru) untuk mengubah data mahasiswa (nama dan usia) berdasarkan nama lama yang diberikan.
 
 
 #### Output:
