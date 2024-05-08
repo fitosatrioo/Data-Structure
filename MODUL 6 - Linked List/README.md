@@ -424,7 +424,13 @@ int main() {
 
 
 ```
-Program ini adalah contoh sederhana dari penggunaan struktur data dalam pemrograman C++. Struktur data digunakan untuk mengelompokkan beberapa variabel yang memiliki hubungan dan membentuk suatu entitas yang lebih besar.
+Program diatas merupakan implementasi dari Doubly Linked List. Doubly Linked List adalah struktur data linear di mana setiap elemen disimpan dalam sebuah node yang memiliki dua pointer, yaitu pointer ke node sebelumnya (prev) dan pointer ke node berikutnya (next). Pengguna dapat memilih operasi yang diinginkan dengan memasukkan angka yang sesuai dengan pilihan yang disediakan. Program akan terus berjalan dalam loop hingga pengguna memilih untuk keluar (pilihan 6). dengan penjelasan sebagai berikut:
+- DoublyLinkedList() untuk menginisialisasi pointer head dan tail menjadi NULL saat objek dari kelas DoublyLinkedList dibuat.
+- push(int data) untuk menambahkan node baru dengan data tertentu di depan linked list.
+- pop() untuk menghapus node pertama dari linked list.
+- update(int oldData, int newData) untuk mengupdate nilai data dari node yang memiliki nilai data tertentu.
+- deleteAll() untuk menghapus semua node dari linked list.
+- display() untuk menampilkan isi linked list dari depan ke belakang.
 
 
 ## Unguided 
