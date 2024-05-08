@@ -997,6 +997,28 @@ tampilkan(): Menampilkan semua produk beserta harganya.
 
 #### Output:
 
+![Screenshot (1275)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/3a56a40a-d584-4a82-9bd2-74a4d33d9f99)
+
+1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
+
+![Screenshot (1277)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/ead6d660-95e1-46ef-bc36-295410d67c38)
+
+2. Hapus produk wardah
+
+![Screenshot (1279)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/c8523490-f6d4-4e93-beb1-848a0bfa737b)
+
+
+3. Update produk Hanasui menjadi Cleora dengan harga 55.000
+
+![Screenshot (1280)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/95f5da9d-6b1b-4b50-8d86-81ce4c26e1ed)
+
+4. Tampilkan menu seperti dibawah ini
+
+![Screenshot (1280) 2](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/1b88eaf2-1026-4112-975a-9d88e5972c6d)
+
+5. Tampilan Akhir
+
+![Screenshot (1280) 3](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/2a2175ba-570f-4d16-82a5-1e0707bdfe5c)
 
 
 
