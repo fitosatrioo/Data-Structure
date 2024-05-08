@@ -693,7 +693,7 @@ int main() {
     
     
 
-	cout << "" << endl;
+    cout << "" << endl;
     cout << "" << endl;
     cout << "By: Fito Satrio (2311110030)" << endl;
     return 0;
@@ -706,11 +706,24 @@ int main() {
 #### Output:
 a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.
 
+![Screenshot (1270)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/f8a6d1e3-69fa-45e1-a9b2-d1bfa6010031)
+
+
 b. Hapus data Akechi
+![Screenshot (1271)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/6632f711-5824-4f41-9119-168bd8ba66d5)
+
+
 c. Tambahkan data berikut diantara John dan Jane : Futaba 18
+![Screenshot (1272)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/a9f7a7d6-5e2e-4a82-8bae-47f313f8381d)
+
 d. Tambahkan data berikut diawal : Igor	20
+![Screenshot (1273)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/50007397-5bc4-4550-a669-46d8c07da199)
+
 e. Ubah data Michael menjadi : Reyn 18
+![Screenshot (1274)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/8eeca3fb-256a-40cb-b8bc-2fc8e5b01dff)
+
 f. Tampilkan seluruh data
+![Screenshot (1274) 2](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/06fe2729-0d71-4a9f-b141-51e801d7df52)
 
 
 
