@@ -4,7 +4,28 @@
 
 ## Dasar Teori
 
-Linked list merupakan
+Linked list merupakan suatu struktur data yang terdiri dari serangkaian node yang saling terhubung. Setiap node menyimpan sebuah elemen data dan referensi atau pointer ke node berikutnya dalam urutan. Ini berbeda dengan array, di mana elemen-elemen data disimpan secara berurutan dalam memori.
+
+Ada beberapa jenis linked list, tetapi yang paling umum adalah single linked list dan double linked list. Dalam single linked list, setiap node memiliki satu pointer yang menunjuk ke node berikutnya dalam urutan. Ini membuat akses linier ke elemen-elemen dalam linked list, karena Anda harus melalui setiap node dari awal untuk mencapai elemen yang diinginkan. berbeda dengan double linked list yang menambahkan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya.
+
+## A. Single Linked List
+
+```r
+   HEAD
+    ↓
+[ data | next ] -> [ data | next ] -> [ data | next ] -> NULL
+
+```
+Di sini, "HEAD" adalah pointer yang menunjuk ke node pertama dalam linked list. Setiap node terdiri dari dua bagian: bagian pertama menyimpan elemen data, dan bagian kedua adalah pointer yang menunjuk ke node berikutnya. Node terakhir dalam linked list memiliki pointer bernilai NULL, menunjukkan akhir dari linked list.
+
+## B. Double Linked List
+
+```r
+   HEAD
+    ↓
+NULL <- [prev | data | next] <-> [prev | data | next] <-> [prev | data | next] <-> NULL
+```
+Di sini, "HEAD" adalah pointer yang menunjuk ke node pertama dalam linked list. Setiap node menyimpan elemen data dan dua pointer: satu untuk node sebelumnya dan satu untuk node berikutnya. Node pertama memiliki pointer ke NULL untuk prev karena tidak ada node sebelumnya, dan node terakhir memiliki pointer ke NULL untuk next karena tidak ada node setelahnya.
 
 ## Guided 
 
@@ -997,7 +1018,7 @@ tampilkan(): Menampilkan semua produk beserta harganya.
 
 #### Output:
 
-![Screenshot (1275)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/3a56a40a-d584-4a82-9bd2-74a4d33d9f99)
+![Screenshot (1281)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/3373d016-ec8d-4849-ad65-942be65643c6)
 
 1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
 
@@ -1026,10 +1047,10 @@ tampilkan(): Menampilkan semua produk beserta harganya.
 
 ## Kesimpulan
 - ### Hasil Praktikum
-Praktikum kali ini membahas tentang struct yang merupakan sebuah fitur yang dapat menyimpan sebuah variabel dengan tipe data yang berbeda - beda. dari guided 1 dan 2 kita mempelajari satu kelas struct dan multiclass struct yang dapat berhubungan dengan kelas struct yang lainnya. kita dapat lihat pada guided 2, untuk menghubungkannya kita menggunakan variabel hewan_info.
+Praktikum kali ini membahas tentang single linked list yang merupakan suatu bentuk struktur data yang berisi kumpulan data yang disebut sebagai node yang tersusun secara sekuensial kemudian Double Linked List yang merupakan struktur data Linked List yang mirip dengan Single Linked List, namun dengan tambahan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya
 
 - ### Pelajaran yang didapat
-Dari struct memungkinkan pengelompokan data terkait menjadi satu unit yang disebut sebagai tipe data baru. Ini memudahkan pengorganisasian data dalam program. Struct dapat memiliki atribut (variabel) dan metode (fungsi) yang memungkinkan untuk memanipulasi dan mengakses data yang terkandung di dalamnya. Struct dapat digunakan dalam berbagai konteks, dari representasi objek dalam pemrograman berorientasi objek hingga penyimpanan data terstruktur dalam program yang lebih umum. Dengan struct, kita dapat membuat representasi data yang kompleks dan terstruktur, yang memudahkan dalam manajemen dan pengolahan data.
+
 
 ## Referensi
 [1] S. N Mohanty, P. K. Tripathy, Data Structure and Algorithms Using C++ A Practical Implementation, USA: Wiley, 2021.
