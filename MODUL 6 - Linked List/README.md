@@ -985,11 +985,20 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+Program ini meminta pengguna untuk melakukan operasi-operasi seperti menambah, menghapus, mengupdate, dan menampilkan data produk kemudian memberikan sebuah menu dengan pilihan operasi yang dapat dilakukan oleh pengguna. Pengguna dapat memilih operasi yang diinginkan dan program akan menjalankan operasi sesuai dengan pilihan pengguna. Setelah setiap operasi, program akan menampilkan hasil operasi tersebut. dengan penjelasan sebagai berikut:
+
+- tambah(string namaProduk, int harga) untuk menambahkan produk baru ke awal daftar dengan nama produk dan harganya.
+- tambahSetelah(string namaProduk, int harga, string namaProdukSebelumnya) untuk menambahkan produk baru setelah produk tertentu dengan nama produk dan harganya.
+- hapus() unguk menghapus produk dari awal daftar.
+- update(string namaProdukLama, string namaProdukBaru, int hargaBaru) untuk mengupdate nama dan harga produk berdasarkan nama produk lama.
+- hapusBerdasarkanNama(string namaProduk) untuk menghapus produk dari daftar berdasarkan nama produk.
+- hapusSemua() untuk menghapus semua produk dari daftar.
+tampilkan(): Menampilkan semua produk beserta harganya.
 
 #### Output:
 
 
-#### Full Screenshoot Code:
+
 
 
 
