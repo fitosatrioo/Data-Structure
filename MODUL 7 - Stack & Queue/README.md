@@ -248,7 +248,7 @@ int main() {
     return 0;
 }
 ```
-Program tersebut adalah implementasi sederhana dari struktur data queue (antrian) dalam bahasa pemrograman C++. Queue adalah struktur data yang mengikuti prinsip "First In, First Out" (FIFO), yang berarti elemen pertama yang dimasukkan ke dalam antrian akan menjadi yang pertama dikeluarkan. dengan penjelasan sebagai berikut:
+Program tersebut adalah implementasi sederhana dari struktur data queue (antrian) dalam bahasa pemrograman C++. Queue adalah struktur data yang mengikuti prinsip "First In, First Out" (FIFO), yang berarti elemen pertama yang dimasukkan ke dalam antrian akan menjadi yang pertama dikeluarkan. Dengan penjelasan sebagai berikut:
 
 - maksimalQueue: Konstanta yang menunjukkan batas maksimum jumlah elemen dalam antrian.
 - front: Indeks yang menunjukkan posisi depan dari antrian.
@@ -326,6 +326,11 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
+Program tersebut adalah sebuah program sederhana dalam bahasa yang bertujuan untuk mengecek apakah sebuah kalimat yang dimasukkan oleh pengguna adalah palindrom atau tidak. Sebuah palindrom adalah suatu kata, frasa, angka, atau urutan lainnya yang dapat dibaca dengan sama baik dari depan maupun dari belakang. Dengan penjelasan sebagai berikut:
+
+- removeSpaces(const string& str): Fungsi ini menghapus spasi dari string yang diberikan dan mengembalikan string yang sudah diproses tersebut.
+- isPalindrome(const string& str): Fungsi ini menentukan apakah string yang diberikan merupakan palindrom atau tidak. Fungsi ini melakukan perbandingan karakter dari kedua ujung string, yaitu dari awal ke akhir dan dari akhir ke awal. Jika karakter yang sesuai di kedua ujung tidak sama, maka fungsi akan mengembalikan false, jika semua karakter cocok, maka fungsi akan mengembalikan true.
+- main(): Fungsi utama dari program. Program ini meminta pengguna untuk memasukkan sebuah kalimat, kemudian menghapus spasi dari kalimat tersebut menggunakan fungsi removeSpaces. Setelah itu, program memeriksa apakah kalimat yang sudah diproses merupakan palindrom atau tidak menggunakan fungsi isPalindrome. Hasil pengecekan tersebut kemudian ditampilkan kepada pengguna.
 
 
 #### Output:
