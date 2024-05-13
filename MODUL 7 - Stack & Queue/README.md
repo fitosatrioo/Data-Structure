@@ -5,11 +5,16 @@
 ## Dasar Teori
 
 ## A. Stack
+Stack adalah struktur data yang mengikuti prinsip LIFO (Last In, First Out), yang berarti item terakhir yang dimasukkan ke dalam tumpukan akan menjadi yang pertama dikeluarkan. Ini mirip dengan menumpuk beberapa buku di atas meja; buku terakhir yang diletakkan di atas tumpukan adalah yang pertama diambil saat menyingkirkan buku-buku tersebut. Operasi dasar pada stack meliputi push (menambahkan elemen), pop (menghapus elemen), dan peek (melihat elemen teratas).
 
-```r
-   
+1. Push
+Operasi push digunakan untuk menambahkan elemen ke dalam stack. Elemen baru ditambahkan di atas elemen-elemen yang sudah ada sebelumnya. Contohnya, jika kita memiliki stack yang berisi [1, 2, 3], maka dengan melakukan push(4), stack akan menjadi [1, 2, 3, 4].
 
-```
+2. Pop
+Operasi pop digunakan untuk menghapus elemen teratas dari stack. Elemen teratas diambil dan dihapus dari stack, dan elemen yang terletak di bawahnya menjadi elemen teratas baru. Contohnya, jika kita memiliki stack [1, 2, 3, 4], maka dengan melakukan pop, elemen teratas (4) akan dihapus, dan stack akan menjadi [1, 2, 3].
+
+3. Peek
+Operasi peek digunakan untuk melihat elemen teratas dari stack tanpa menghapusnya. Dengan melakukan peek, kita dapat melihat nilai elemen teratas tanpa mempengaruhi struktur stack. Contohnya, jika kita memiliki stack [1, 2, 3, 4], maka dengan melakukan peek, kita akan melihat bahwa elemen teratasnya adalah 4.
 
 ## B. Queue
 
