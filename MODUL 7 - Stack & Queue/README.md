@@ -464,8 +464,8 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
-Program ini adalah sebuah aplikasi sederhana untuk mengelola antrian dalam sebuah layanan, seperti layanan teller di bank atau layanan konsumen di toko. Program ini memungkinkan pengguna untuk menambahkan, mengurangi, melihat, menghitung jumlah, dan mengosongkan antrian.
-Dengan penjelasan berikut ini:
+Program ini adalah sebuah aplikasi sederhana untuk mengelola antrian dalam sebuah layanan, seperti layanan teller di bank atau layanan konsumen di toko. Program ini memungkinkan pengguna untuk menambahkan, mengurangi, melihat, menghitung jumlah, dan mengosongkan antrian. Dengan penjelasan berikut ini:
+
 
 1. Variabel global:
 - maksimalQueue: Konstanta yang menentukan batas maksimum jumlah antrian yang dapat disimpan.
