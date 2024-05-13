@@ -17,10 +17,13 @@ Operasi pop digunakan untuk menghapus elemen teratas dari stack. Elemen teratas 
 Operasi peek digunakan untuk melihat elemen teratas dari stack tanpa menghapusnya. Dengan melakukan peek, kita dapat melihat nilai elemen teratas tanpa mempengaruhi struktur stack. Contohnya, jika kita memiliki stack [1, 2, 3, 4], maka dengan melakukan peek, kita akan melihat bahwa elemen teratasnya adalah 4.
 
 ## B. Queue
+Antrian atau queue adalah struktur data yang mengikuti prinsip "First In, First Out" (FIFO). Artinya, elemen pertama yang dimasukkan ke dalam antrian akan menjadi yang pertama keluar. Seperti saat kita mengantri di kasir supermarket: orang pertama yang mengantri akan dilayani terlebih dahulu, kemudian orang kedua, dan seterusnya. Dalam sebuah program, antrian sering digunakan untuk menangani tugas yang harus dilakukan dalam urutan tertentu atau untuk menunggu giliran. 
 
-```r
- 
-```
+1. Enqueue 
+Operasi Enqueue digunakan untuk menambahkan elemen baru ke dalam Queue. Elemen baru ini akan ditempatkan di posisi belakang Queue (rear). Saat melakukan Enqueue, penunjuk rear akan maju ke posisi berikutnya untuk menunjuk elemen baru tersebut.
+
+2. Dequeue 
+Operasi Dequeue digunakan untuk menghapus elemen pertama dari Queue. Elemen yang dihapus ini merupakan elemen yang berada di posisi depan Queue (front). Saat melakukan Dequeue, penunjuk front akan maju ke posisi berikutnya untuk menunjuk elemen setelahnya, dan elemen yang dihapus tidak lagi termasuk dalam Queue.
 
 ## Guided 
 
