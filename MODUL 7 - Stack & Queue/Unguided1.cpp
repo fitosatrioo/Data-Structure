@@ -1,10 +1,9 @@
 #include <iostream>
-#include <stack>
 #include <string>
 
 using namespace std;
 
-// Menghapus spasi dari string
+// Fungsi untuk menghapus spasi dari string
 string removeSpaces(const string& str) {
     string processedStr;
     for(size_t i = 0; i < str.length(); ++i) {
@@ -17,22 +16,16 @@ string removeSpaces(const string& str) {
 
 // Fungsi untuk menentukan apakah sebuah string adalah palindrom atau tidak
 bool isPalindrome(const string& str) {
-    stack<char> charStack;
-    int length = str.length();
+    int left = 0;
+    int right = str.length() - 1;
 
-    // Masukkan setengah karakter pertama ke dalam stack
-    for (int i = 0; i < length/2; i++) {
-        charStack.push(str[i]);
-    }
-
-    // Bandingkan setengah karakter kedua dengan karakter yang ada di stack
-    int i = (length + 1) / 2;
-    while (i < length) {
-        if (str[i] != charStack.top()) {
+    // Perbandingan karakter dari kedua ujung string
+    while (left < right) {
+        if (str[left] != str[right]) {
             return false;
         }
-        charStack.pop();
-        i++;
+        left++;
+        right--;
     }
     return true;
 }
@@ -58,4 +51,3 @@ int main() {
 
     return 0;
 }
-
