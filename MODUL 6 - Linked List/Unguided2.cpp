@@ -137,11 +137,11 @@ int main() {
     DoublyLinkedList list_030;
 
     // Menambahkan produk awal ke daftar
-    list_030.tambah("Originote", 60000);
-    list_030.tambah("Somethinc", 150000);
-    list_030.tambah("Skintific", 100000);
-    list_030.tambah("Wardah  ", 50000);
     list_030.tambah("Hanasui ", 30000);
+    list_030.tambah("Wardah  ", 50000);
+    list_030.tambah("Skintific", 100000);
+    list_030.tambah("Somethinc", 150000);
+    list_030.tambah("Originote", 60000);
 
     // Menampilkan produk awal
     cout << "Daftar Produk Awal:" << endl;
