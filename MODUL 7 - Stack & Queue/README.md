@@ -464,7 +464,28 @@ int main() {
 
 ```
 <p><b>Penjelasan:</b></p>
-Program ini meminta pengguna untuk melakukan operasi-operasi seperti menambah, menghapus, mengupdate, dan menampilkan data produk kemudian memberikan sebuah menu dengan pilihan operasi yang dapat dilakukan oleh pengguna. Pengguna dapat memilih operasi yang diinginkan dan program akan menjalankan operasi sesuai dengan pilihan pengguna. Setelah setiap operasi, program akan menampilkan hasil operasi tersebut. dengan penjelasan sebagai berikut:
+Program ini adalah sebuah aplikasi sederhana untuk mengelola antrian dalam sebuah layanan, seperti layanan teller di bank atau layanan konsumen di toko. Program ini memungkinkan pengguna untuk menambahkan, mengurangi, melihat, menghitung jumlah, dan mengosongkan antrian.
+Dengan penjelasan berikut ini:
+
+1. Variabel global:
+- maksimalQueue: Konstanta yang menentukan batas maksimum jumlah antrian yang dapat disimpan.
+- front: Penanda posisi depan dari antrian.
+- back: Penanda posisi belakang dari antrian.
+- queueTeller: Array untuk menyimpan data antrian.
+  
+2. Fungsi-fungsi:
+- isFull(): Mengecek apakah antrian sudah penuh atau tidak.
+- isEmpty(): Mengecek apakah antrian kosong atau tidak.
+- enqueueAntrian(string data): Menambahkan data ke dalam antrian.
+- dequeueAntrian(): Menghapus data dari depan antrian.
+- countQueue(): Menghitung jumlah data dalam antrian.
+- clearQueue(): Mengosongkan semua data dalam antrian.
+- viewQueue(): Menampilkan seluruh data dalam antrian.
+  
+3. Fungsi main():
+- Pada fungsi utama, pengguna diberikan menu pilihan untuk berinteraksi dengan antrian.
+- Pengguna diminta untuk memilih salah satu dari enam opsi yang tersedia: menambah antrian, mengurangi antrian, melihat antrian, menghitung jumlah antrian, mengosongkan antrian, atau keluar dari program.
+- Program akan terus berjalan dan menunggu input pengguna hingga pengguna memilih untuk keluar (pilihan 6).
 
 
 
@@ -481,25 +502,7 @@ Program ini meminta pengguna untuk melakukan operasi-operasi seperti menambah, m
 Praktikum kali ini membahas tentang single linked list yang merupakan suatu bentuk struktur data yang berisi kumpulan data yang disebut sebagai node yang tersusun secara sekuensial kemudian Double Linked List yang merupakan struktur data Linked List yang mirip dengan Single Linked List, namun dengan tambahan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya
 
 - ### Pelajaran yang didapat
-Single linked list
 
-Kelebihan:
-Implementasi sederhana dan lebih ringan karena setiap node hanya perlu menyimpan satu pointer.
-Cocok untuk aplikasi di mana navigasi maju cukup, seperti antrian (queue) dan stack.
-
-Kekurangan:
-Tidak mendukung navigasi mundur secara langsung, yang dapat mengakibatkan kinerja yang kurang efisien dalam beberapa operasi.
-Operasi seperti menghapus elemen terakhir dalam linked list memerlukan waktu O(n), di mana n adalah jumlah elemen dalam linked list.
-
-Double linked list
-
-kelebihan:
-Mendukung navigasi maju dan mundur, sehingga lebih efisien untuk operasi-operasi yang memerlukan penelusuran maju dan mundur.
-Operasi penghapusan elemen dari akhir linked list menjadi lebih efisien dengan memiliki pointer ke node sebelumnya.
-
-Kekurangan:
-Memerlukan lebih banyak ruang memori karena setiap node harus menyimpan dua pointer tambahan.
-Implementasi yang lebih kompleks dibandingkan dengan single linked list.
 
 ## Referensi
 [1] Hermawan Wijaya, Wibisono Sukmo Wardhono, Issa Arwani, "Implementasi Linked List pada Interaksi Antar Marker Augmented Reality untuk Operand dan Operator Aritmatika", Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer, 2018.
