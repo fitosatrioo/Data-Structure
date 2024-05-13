@@ -248,6 +248,20 @@ int main() {
     return 0;
 }
 ```
+Program tersebut adalah implementasi sederhana dari struktur data queue (antrian) dalam bahasa pemrograman C++. Queue adalah struktur data yang mengikuti prinsip "First In, First Out" (FIFO), yang berarti elemen pertama yang dimasukkan ke dalam antrian akan menjadi yang pertama dikeluarkan. dengan penjelasan sebagai berikut:
+
+- maksimalQueue: Konstanta yang menunjukkan batas maksimum jumlah elemen dalam antrian.
+- front: Indeks yang menunjukkan posisi depan dari antrian.
+- back: Indeks yang menunjukkan posisi belakang dari antrian.
+- queueTeller: Array yang digunakan untuk menyimpan elemen-elemen dalam antrian.
+- isFull(): Mengecek apakah antrian sudah penuh atau tidak.
+- isEmpty(): Mengecek apakah antrian kosong atau tidak.
+- enqueueAntrian(string data): Menambahkan elemen ke dalam antrian.
+- dequeueAntrian(): Menghapus elemen dari depan antrian.
+- countQueue(): Menghitung jumlah elemen dalam antrian.
+- clearQueue(): Menghapus semua elemen dalam antrian.
+- viewQueue(): Menampilkan isi dari antrian.
+
 
 
 
