@@ -133,7 +133,22 @@ int main() {
     return 0;
 }
 ```
-Program diatas merupakan implementasi dari struktur data single linked list non-circular dan setiap node memiliki pointer yang menunjukkan ke node berikutnya dalam list. Program ini melakukan serangkaian operasi pengujian terhadap fungsi-fungsi tersebut, seperti menambahkan, menghapus, dan mengubah nilai dari node-node dalam list. dengan penjelasan sebagai berikut: 
+Program tersebut adalah implementasi dari struktur data stack (tumpukan) dalam bahasa pemrograman C++. Stack adalah struktur data yang mengikuti prinsip "Last In, First Out" (LIFO), yang berarti elemen terakhir yang dimasukkan ke dalam stack akan menjadi yang pertama dikeluarkan. dengan penjelasan sebagai berikut:
+
+- arrayBuku: Array yang digunakan untuk menyimpan data buku.
+- maksimal: Variabel yang menunjukkan batas maksimum jumlah elemen dalam stack.
+- top: Indeks yang menunjukkan posisi paling atas dari stack.
+- isFull(): Mengecek apakah stack sudah penuh atau belum.
+- isEmpty(): Mengecek apakah stack kosong atau tidak.
+- pushArrayBuku(string data): Menambahkan elemen ke dalam stack.
+- popArrayBuku(): Menghapus elemen teratas dari stack.
+- peekArrayBuku(int posisi): Melihat elemen pada posisi tertentu dalam stack.
+- countStack(): Menghitung jumlah elemen dalam stack.
+- changeArrayBuku(int posisi, string data): Mengubah data pada posisi tertentu dalam stack.
+- destroyArraybuku(): Menghapus semua elemen dalam stack.
+- cetakArrayBuku(): Mencetak semua elemen dalam stack.
+  
+terdapat implementasi dari penggunaan fungsi-fungsi di atas untuk melakukan operasi-operasi dasar pada stack, seperti menambahkan, menghapus, melihat, mengubah, dan mencetak elemen-elemen dalam stack.
 
 
 
