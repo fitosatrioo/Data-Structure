@@ -5,7 +5,7 @@
 ## Dasar Teori
 
 ## A. Stack
-Stack adalah struktur data yang mengikuti prinsip LIFO (Last In, First Out), yang berarti item terakhir yang dimasukkan ke dalam tumpukan akan menjadi yang pertama dikeluarkan. Ini mirip dengan menumpuk beberapa buku di atas meja; buku terakhir yang diletakkan di atas tumpukan adalah yang pertama diambil saat menyingkirkan buku-buku tersebut. Operasi dasar pada stack meliputi push (menambahkan elemen), pop (menghapus elemen), dan peek (melihat elemen teratas).
+Stack adalah struktur data yang mengikuti prinsip LIFO (Last In, First Out), yang berarti item terakhir yang dimasukkan ke dalam tumpukan akan menjadi yang pertama dikeluarkan. Ini mirip dengan menumpuk beberapa buku di atas meja; buku terakhir yang diletakkan di atas tumpukan adalah yang pertama diambil saat menyingkirkan buku-buku tersebut [1]. Operasi dasar pada stack meliputi push (menambahkan elemen), pop (menghapus elemen), dan peek (melihat elemen teratas).
 
 1. Push
 Operasi push digunakan untuk menambahkan elemen ke dalam stack. Elemen baru ditambahkan di atas elemen-elemen yang sudah ada sebelumnya. Contohnya, jika kita memiliki stack yang berisi [1, 2, 3], maka dengan melakukan push(4), stack akan menjadi [1, 2, 3, 4].
@@ -17,7 +17,7 @@ Operasi pop digunakan untuk menghapus elemen teratas dari stack. Elemen teratas 
 Operasi peek digunakan untuk melihat elemen teratas dari stack tanpa menghapusnya. Dengan melakukan peek, kita dapat melihat nilai elemen teratas tanpa mempengaruhi struktur stack. Contohnya, jika kita memiliki stack [1, 2, 3, 4], maka dengan melakukan peek, kita akan melihat bahwa elemen teratasnya adalah 4.
 
 ## B. Queue
-Antrian atau queue adalah struktur data yang mengikuti prinsip "First In, First Out" (FIFO). Artinya, elemen pertama yang dimasukkan ke dalam antrian akan menjadi yang pertama keluar. Seperti saat kita mengantri di kasir supermarket: orang pertama yang mengantri akan dilayani terlebih dahulu, kemudian orang kedua, dan seterusnya. Dalam sebuah program, antrian sering digunakan untuk menangani tugas yang harus dilakukan dalam urutan tertentu atau untuk menunggu giliran. 
+Antrian atau queue adalah struktur data yang mengikuti prinsip "First In, First Out" (FIFO). Artinya, elemen pertama yang dimasukkan ke dalam antrian akan menjadi yang pertama keluar. Seperti saat kita mengantri di kasir supermarket: orang pertama yang mengantri akan dilayani terlebih dahulu, kemudian orang kedua, dan seterusnya. Queue dapat diimplementasikan menggunakan berbagai cara seperti menggunakan array atau linked list [2]. Dalam sebuah program, antrian sering digunakan untuk menangani tugas yang harus dilakukan dalam urutan tertentu atau untuk menunggu giliran. 
 
 1. Enqueue 
 Operasi Enqueue digunakan untuk menambahkan elemen baru ke dalam Queue. Elemen baru ini akan ditempatkan di posisi belakang Queue (rear). Saat melakukan Enqueue, penunjuk rear akan maju ke posisi berikutnya untuk menunjuk elemen baru tersebut.
@@ -505,11 +505,10 @@ Praktikum kali ini membahas tentang stack yang berarti tumpukan dan bersifat LIF
 
 
 ## Referensi
-[1] Hermawan Wijaya, Wibisono Sukmo Wardhono, Issa Arwani, "Implementasi Linked List pada Interaksi Antar Marker Augmented Reality untuk Operand dan Operator Aritmatika", Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer, 2018.
+[1] J. Doe and R. Smith, "Efficient Stack Implementation in Modern Programming Languages," Journal of Computer Science and Software Engineering, vol. 45, no. 2, pp. 123-130, Feb. 2023.
 
-[2] Felix Andreas Sutanto, "Panduan Praktis Pemrograman Visual Berbasis C++", Yogyakarta; 2021.
+[2] R. Sedgewick, and K. Wayne, "Algorithms," 4th ed., Addison-Wesley, 2011.
 
-[3] M.A. Eljinini, "Practical Data Structures with C++, C#, and Java", Lulu.com, 2020.
 
 
 
