@@ -490,7 +490,7 @@ Program ini adalah sebuah aplikasi sederhana untuk mengelola antrian dalam sebua
 
 #### Output:
 
-![Screenshot (1320)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/8fd5a846-75d7-4b84-82a1-5d025318b5e1)
+![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/9a881dc2-929d-49f8-862d-915178c30236)
 
 ![Screenshot (1321)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/09275e0f-9987-4558-b5b0-bb314fddcac2)
 
