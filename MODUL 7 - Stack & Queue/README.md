@@ -335,9 +335,8 @@ Program tersebut adalah sebuah program sederhana dalam bahasa yang bertujuan unt
 
 #### Output:
 
+![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
 
-
-#### Full Screenshot Code:
 
 
 
@@ -491,9 +490,13 @@ Program ini adalah sebuah aplikasi sederhana untuk mengelola antrian dalam sebua
 
 #### Output:
 
-![Screenshot (1281)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/3373d016-ec8d-4849-ad65-942be65643c6)
+![Screenshot (1320)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/8fd5a846-75d7-4b84-82a1-5d025318b5e1)
 
-#### Full Screenshot Code:
+![Screenshot (1321)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/09275e0f-9987-4558-b5b0-bb314fddcac2)
+
+
+![Screenshot (1322)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/ceadf96c-4777-49a5-80b6-56b22525388f)
+
 
 
 
