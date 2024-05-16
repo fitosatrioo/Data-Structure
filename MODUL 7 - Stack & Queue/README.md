@@ -494,17 +494,14 @@ Program ini adalah sebuah aplikasi sederhana untuk mengelola antrian dalam sebua
 
 ![Screenshot (1321)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/09275e0f-9987-4558-b5b0-bb314fddcac2)
 
-
 ![Screenshot (1322)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/ceadf96c-4777-49a5-80b6-56b22525388f)
 
 
 
 
 ## Kesimpulan
-- ### Hasil Praktikum
-Praktikum kali ini membahas tentang single linked list yang merupakan suatu bentuk struktur data yang berisi kumpulan data yang disebut sebagai node yang tersusun secara sekuensial kemudian Double Linked List yang merupakan struktur data Linked List yang mirip dengan Single Linked List, namun dengan tambahan satu pointer tambahan pada setiap simpul yaitu pointer prev yang menunjuk ke simpul sebelumnya
 
-- ### Pelajaran yang didapat
+Praktikum kali ini membahas tentang stack yang berarti tumpukan dan bersifat LIFO artinya yang pertama kali datang itu yang terakhir keluar ini seperti contoh tumpukan baju (baju yang paling atas / yang terakhir itu yang pertama kali diambil). beda hal nya dengan queue yang berarti antrian ini bersifat FIFO artinya yang pertama kali datang itu yan pertama kali keluar juga ini seperti contoh antrian pada rumah sakit (yang datang duluan itu yang dilayanin duluan pula).
 
 
 ## Referensi
