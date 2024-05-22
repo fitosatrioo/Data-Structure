@@ -310,9 +310,46 @@ Program ini adalah contoh implementasi Max Heap untuk mengelola priority queue. 
 - getMax(): Mengembalikan elemen dengan prioritas tertinggi tanpa menghapusnya dari heap.
 - remove(int i): Menghapus elemen di indeks i dari heap dengan mengatur elemen tersebut ke nilai yang lebih tinggi dari maksimum saat ini, kemudian menghapusnya dengan extractMax.
 
+Penjelasan output
+```
+Values in the priority queue: 74 67 9 51 11 6 8 26 40 2
+```
+- Ini adalah tampilan awal dari priority queue setelah semua nilai dimasukkan. Angka-angka ini ditampilkan dalam urutan sesuai dengan properti heap, yaitu nilai tertinggi (74) berada di bagian depan, diikuti oleh nilai-nilai lainnya yang terurut secara descending.
+
+```
+Maximum value: 74
+```
+- Ini adalah nilai maksimum (nilai teratas) dalam priority queue saat ini.
+
+```
+Enter index to change priority: 1
+```
+- Program meminta pengguna untuk memasukkan indeks elemen yang ingin diubah prioritasnya. Indeks dihitung dari 1, sehingga indeks 1 merujuk pada elemen pertama dalam priority queue.
+
+```
+Enter new priority: 102
+```
+- Program meminta pengguna untuk memasukkan nilai prioritas baru untuk elemen yang dipilih. Pengguna memasukkan nilai 102.
+
+```
+Priority queue after priority change: 102 74 9 51 11 6 8 26 40 2
+```
+- Ini adalah tampilan priority queue setelah perubahan prioritas. Prioritas elemen pertama telah diubah menjadi 102, dan sisa elemen tetap dalam urutan yang sama seperti sebelumnya.
+
+```
+Enter index to remove: 5
+```
+- Program meminta pengguna untuk memasukkan indeks elemen yang ingin dihapus dari priority queue. Pengguna memilih untuk menghapus elemen pada indeks 5.
+
+```
+Priority queue after removing the element: 102 74 9 51 11 2 8 26 40
+```
+- Ini adalah tampilan priority queue setelah elemen pada indeks 5 dihapus. Elemen tersebut (nilai 11) telah dihapus, dan elemen-elemen di belakangnya telah bergeser ke posisi yang sesuai untuk menjaga sifat heap.
+
+
 #### Output:
 
-![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
+![Screenshot (1350)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/90040cc7-654d-4724-91c5-147bf0bb3cdc)
 
 ## Kesimpulan
 
