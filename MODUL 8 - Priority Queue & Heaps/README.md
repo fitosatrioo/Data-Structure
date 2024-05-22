@@ -9,14 +9,15 @@ Priority Queue adalah jenis struktur data yang mirip dengan antrian biasa, tetap
 
 - Dalam priority queue, elemen dengan prioritas tertinggi selalu berada di depan antrian.
 - Jika ada elemen dengan prioritas yang sama, urutan mereka bisa ditentukan berdasarkan waktu masuk (FIFO) atau tidak, tergantung pada implementasinya.
+  
   Operasi utama nya adalah:
-  Operasi Utama:
 - Insert (Enqueue), untuk menambahkan elemen baru dengan prioritas tertentu ke dalam antrian.
 - Extract-Max/Extract-Min (Dequeue), untuk menghapus dan mengembalikan elemen dengan prioritas tertinggi (atau terendah) dari antrian.
 - Peek/Top, untuk mengembalikan elemen dengan prioritas tertinggi (atau terendah) tanpa menghapusnya dari antrian.
 - Change Priority, untuk mengubah prioritas dari elemen tertentu dalam antrian.
 - Remove, untuk menghapus elemen tertentu dari antrian.
-  Priority queue banyak digunakan dalam algoritma graf seperti Dijkstra untuk menemukan jalur terpendek untuk menemukan minimum spanning tree [1]. Beberapa cara untuk mengimplementasikan priority queue adalah menggunakan array, linked list, heap, atau binary search tree. untuk materi kali ini kita memakai heap untuk melakukan implementasi pada priority queue.
+  
+Priority queue banyak digunakan dalam algoritma graf seperti Dijkstra untuk menemukan jalur terpendek untuk menemukan minimum spanning tree [1]. Beberapa cara untuk mengimplementasikan priority queue adalah menggunakan array, linked list, heap, atau binary search tree. untuk materi kali ini kita memakai heap untuk melakukan implementasi pada priority queue.
 
 ## Heap
 
@@ -295,6 +296,7 @@ int main() {
 
 <p><b>Penjelasan:</b></p>
 Program ini adalah contoh implementasi Max Heap untuk mengelola priority queue. Ini memungkinkan pengguna untuk menambahkan elemen, mengubah prioritas elemen, menghapus elemen, dan mendapatkan elemen dengan prioritas tertinggi dengan diinputkan oleh ussr. Penjelasan sebagai berikut:
+
 - H adalah array yang digunakan untuk menyimpan elemen-elemen heap.
 - heapSize adalah variabel yang melacak ukuran heap saat ini. Dimulai dari -1 karena tidak ada elemen dalam heap pada awalnya.
 - parent(int i): Mengembalikan indeks parent dari elemen di indeks i.
