@@ -310,6 +310,10 @@ Program ini adalah contoh implementasi Max Heap untuk mengelola priority queue. 
 - getMax(): Mengembalikan elemen dengan prioritas tertinggi tanpa menghapusnya dari heap.
 - remove(int i): Menghapus elemen di indeks i dari heap dengan mengatur elemen tersebut ke nilai yang lebih tinggi dari maksimum saat ini, kemudian menghapusnya dengan extractMax.
 
+#### Output:
+
+![Screenshot (1350)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/90040cc7-654d-4724-91c5-147bf0bb3cdc)
+
 Penjelasan output
 ```
 Values in the priority queue: 74 67 9 51 11 6 8 26 40 2
@@ -345,11 +349,6 @@ Enter index to remove: 5
 Priority queue after removing the element: 102 74 9 51 11 2 8 26 40
 ```
 - Ini adalah tampilan priority queue setelah elemen pada indeks 5 dihapus. Elemen tersebut (nilai 11) telah dihapus, dan elemen-elemen di belakangnya telah bergeser ke posisi yang sesuai untuk menjaga sifat heap.
-
-
-#### Output:
-
-![Screenshot (1350)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/90040cc7-654d-4724-91c5-147bf0bb3cdc)
 
 ## Kesimpulan
 
