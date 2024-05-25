@@ -537,8 +537,10 @@ Program ini adalah implementasi sederhana dari struktur data hash map untuk meny
 
 ![Screenshot (1397)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/0eb0fd49-9918-4154-8cf0-1419469c9679)
 
+
 #### c. Cari Mahasiswa dengan NIM
-![Screenshot (1395)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/0eb0fd49-9918-4154-8cf0-1419469c9679)
+![Screenshot (1395)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/46ffa203-72b1-4fd3-9b8d-0e40a0d25664)
+
 
 #### d. Cari Mahasiswa dengan Rentang Nilai (80-90)
 
