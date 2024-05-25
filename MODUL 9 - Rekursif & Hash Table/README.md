@@ -291,7 +291,7 @@ Program ini adalah implementasi sederhana dari perhitungan faktorial menggunakan
 
 #### Output:
 
-![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
+![Screenshot (1392)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/09b85093-08d0-43ec-a102-29a4a75e2d8c)
 
 
 ### 2. Buatlah versi program Rekursif Tidak Langsung (Indirect Recursion) dari soal nomor 1 di atas!
@@ -357,7 +357,7 @@ Program ini adalah implementasi rekursi tidak langsung untuk menghitung faktoria
 
 #### Output:
 
-![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
+![Screenshot (1393)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/537467a8-b1ca-4bd3-b4a9-253815a4798e)
 
 
 ### 3. Implementasikan hash table untuk menyimpan data mahasiswa. Setiap mahasiswa memiliki NIM dan nilai. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan nilai. Dengan ketentuan :
@@ -529,7 +529,20 @@ Program ini adalah implementasi sederhana dari struktur data hash map untuk meny
 
 #### Output:
 
-![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
+#### a. Menambah Data
+
+![Screenshot (1394)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/39f7d841-9175-4000-9281-c954cd020ea0)
+
+#### b. Menghapus Data
+
+![Screenshot (1397)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/0eb0fd49-9918-4154-8cf0-1419469c9679)
+
+#### c. Cari Mahasiswa dengan NIM
+![Screenshot (1395)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/0eb0fd49-9918-4154-8cf0-1419469c9679)
+
+#### d. Cari Mahasiswa dengan Rentang Nilai (80-90)
+
+![Screenshot (1396)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/6f4a37a5-89e3-4109-b4b1-817c3a86a46d)
 
 
 
