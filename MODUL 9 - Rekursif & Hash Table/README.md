@@ -6,19 +6,19 @@
 ## Dasar Teori
 
 ## Rekursif
-Rekursif adalah konsep dalam pemrograman di mana sebuah fungsi memanggil dirinya sendiri untuk menyelesaikan tugas yang diberikan. Proses ini berlanjut sampai mencapai kondisi dasar atau batas, yang biasanya disebut sebagai "kondisi dasar" atau "kondisi terminasi", yang menghentikan pemanggilan berulang. Jenis rekursif itu ada dua yaitu:
+Rekursif adalah konsep dalam pemrograman di mana sebuah fungsi memanggil dirinya sendiri untuk menyelesaikan tugas yang diberikan [1]. Proses ini berlanjut sampai mencapai kondisi dasar atau batas, yang biasanya disebut sebagai "kondisi dasar" atau "kondisi terminasi", yang menghentikan pemanggilan berulang. Jenis rekursif itu ada dua yaitu:
 
 1. Rekursif Langsung
 
-Rekursif langsung terjadi ketika suatu fungsi memanggil dirinya sendiri secara langsung dalam tubuh fungsi itu sendiri. Dalam rekursi langsung, setiap pemanggilan fungsi menghasilkan pemanggilan baru ke fungsi yang sama dengan parameter yang berbeda, hingga mencapai kondisi dasar.
+Rekursif langsung terjadi ketika suatu fungsi memanggil dirinya sendiri secara langsung dalam tubuh fungsi itu sendiri [1]. Dalam rekursi langsung, setiap pemanggilan fungsi menghasilkan pemanggilan baru ke fungsi yang sama dengan parameter yang berbeda, hingga mencapai kondisi dasar.
 
 2. Rekursif Tidak Langsung
 
-Terjadi ketika satu fungsi memanggil fungsi lain, yang kemudian secara tidak langsung memanggil fungsi pertama lagi atau fungsi lain yang pada akhirnya akan memanggil fungsi awal kembali. Dalam rekursi tidak langsung, serangkaian pemanggilan fungsi membentuk siklus di antara beberapa fungsi.
+Terjadi ketika satu fungsi memanggil fungsi lain, yang kemudian secara tidak langsung memanggil fungsi pertama lagi atau fungsi lain yang pada akhirnya akan memanggil fungsi awal kembali [2]. Dalam rekursi tidak langsung, serangkaian pemanggilan fungsi membentuk siklus di antara beberapa fungsi.
 
 ## Hash Table
 
-Hash Table adalah struktur data yang digunakan untuk menyimpan kumpulan item di mana setiap item memiliki kunci unik. Ini memungkinkan pencarian, penyisipan, dan penghapusan item dengan kompleksitas waktu yang cepat. Prinsip dasar dari hash table adalah penggunaan fungsi hash untuk mengonversi kunci unik menjadi indeks array. Indeks ini kemudian digunakan untuk menyimpan atau mengakses nilai terkait. Keuntungan dari hash table termasuk pencarian, penyisipan, dan penghapusan dengan kompleksitas waktu rata-rata O(1) (tergantung pada implementasi dan faktor muatan), yang membuatnya sangat efisien dalam banyak kasus penggunaan. Namun, perlu diingat bahwa kinerja hash table dapat berkurang jika load factor menjadi terlalu tinggi, yang dapat menyebabkan konflik yang lebih sering terjadi. Oleh karena itu, pengelolaan ukuran hash table dan strategi menangani tabrakan sangat penting.
+Hash Table adalah struktur data yang digunakan untuk menyimpan kumpulan item di mana setiap item memiliki kunci unik. Ini memungkinkan pencarian, penyisipan, dan penghapusan item dengan kompleksitas waktu yang cepat. Prinsip dasar dari hash table adalah penggunaan fungsi hash untuk mengonversi kunci unik menjadi indeks array. Indeks ini kemudian digunakan untuk menyimpan atau mengakses nilai terkait. Keuntungan dari hash table termasuk pencarian, penyisipan, dan penghapusan dengan kompleksitas waktu rata-rata O(1) (tergantung pada implementasi dan faktor muatan), yang membuatnya sangat efisien dalam banyak kasus penggunaan. Namun, perlu diingat bahwa kinerja hash table dapat berkurang jika load factor menjadi terlalu tinggi, yang dapat menyebabkan konflik yang lebih sering terjadi. Oleh karena itu, pengelolaan ukuran hash table dan strategi menangani tabrakan sangat penting [3].
 
 Operasi Hash Table:
 - Insertion, Untuk menambahkan pasangan kunci-nilai baru ke dalam hash table.
@@ -222,11 +222,14 @@ Program ini adalah implementasi dari tabel hash sederhana menggunakan chaining u
 
 - Kelas HashMap memiliki metode dan properti untuk memanipulasi tabel hash:
 
-hashFunc: Metode ini digunakan untuk menghitung nilai hash dari kunci (nama). Ini adalah fungsi sederhana yang menjumlahkan nilai ASCII dari setiap karakter kunci dan mengembalikan sisa hasil pembagian dengan ukuran tabel (11).
-insert: Metode ini digunakan untuk menambahkan entri baru ke dalam tabel hash. Jika terjadi tabrakan (kunci yang sama), chaining dilakukan dengan menambahkan node baru ke dalam vektor yang sesuai.
-remove: Metode ini digunakan untuk menghapus entri dari tabel hash berdasarkan kunci (nama). Jika entri ditemukan, node yang sesuai dihapus dari vektor.
+1. hashFunc: Metode ini digunakan untuk menghitung nilai hash dari kunci (nama). Ini adalah fungsi sederhana yang menjumlahkan nilai ASCII dari setiap karakter kunci dan mengembalikan sisa hasil pembagian dengan ukuran tabel (11).
+   
+2. insert: Metode ini digunakan untuk menambahkan entri baru ke dalam tabel hash. Jika terjadi tabrakan (kunci yang sama), chaining dilakukan dengan menambahkan node baru ke dalam vektor yang sesuai.
+   
+3. remove: Metode ini digunakan untuk menghapus entri dari tabel hash berdasarkan kunci (nama). Jika entri ditemukan, node yang sesuai dihapus dari vektor.
 searchByName: Metode ini digunakan untuk mencari nomor telepon berdasarkan nama. Ini mengembalikan nomor telepon yang sesuai jika nama ditemukan dalam tabel hash.
-print: Metode ini digunakan untuk mencetak seluruh isi tabel hash, termasuk chaining.
+
+4. print: Metode ini digunakan untuk mencetak seluruh isi tabel hash, termasuk chaining.
 
 - Fungsi main adalah tempat eksekusi program dimulai. Pada fungsi main, beberapa entri ditambahkan ke tabel hash menggunakan metode insert, kemudian nomor telepon dicari menggunakan metode searchByName. Selanjutnya, salah satu entri dihapus menggunakan metode remove, dan isi tabel hash dicetak menggunakan metode print.
 
@@ -544,6 +547,8 @@ adalah konsep di mana sebuah fungsi memanggil dirinya sendiri untuk menyelesaika
 
 ## Referensi
 
-[1] J. Wise, J. Bader, C. Wong, J. Aldrich, É. Tanter, and J. Sunshine, "Gradual verification of recursive heap data structures", Proc. ACM Program. Lang. , vol. 4, no. 228, pp. 1-28, Oct. 2020.
+[1] R. Firliana, R. Rina, dan P. Kasih, "Struktur Data yang Terorganisir," dalam Algoritma dan Pemrograman C++, Adjie Media Nusantara, Hal.1-82, 2019.
 
-[2] A. Nurcholis, S. Batara, and M. Octamanullah, "Penerapan struktur data Heap Priority Queue pada algoritma Djikstra untuk mendapatkan kompleksitas O((n + m)log n)", Jurnal Laboratorium Ilmu dan Rekayasa Komputasi, vol. 1, no. 1, pp. 1-4, 2023.
+[2] M. Musafa' and N. Meli, "Studi Pendugaan Rekursif dan Nilai Dugaan Proses Observasi Model Hidden Markov", Imajiner: Jurnal Matematika dan Pendidikan Matematika, 2020.
+
+[3] N Karumanchi,  "Data Structures and algorithms made easy: Concepts, problems, Interview Questions". CareerMonk Publications. 2016.
