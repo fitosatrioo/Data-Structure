@@ -505,12 +505,15 @@ a. Menambahkan Simpul
 ![Screenshot (1426)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/fc0926f9-18c7-494f-bc1f-543bbaabb177)
 
 b. Pre-Order
+
 ![Screenshot (1427)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/960bea9f-a39f-496f-9f29-ad5c2f63fc7b)
 
 c. In-Order
+
 ![Screenshot (1428)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/efd6e5bd-8054-4637-a831-3438fb21b841)
 
 d. Post-Order
+
 ![Screenshot (1429)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/8508618e-c4f2-46b1-83c2-76b2e8c6034f)
 
 
