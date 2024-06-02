@@ -6,7 +6,7 @@
 ## Dasar Teori
 
 ## Graph
-Graf ialah struktur data yang terdiri dari himpunan simpul (vertex) yang terhubung oleh himpunan busur (edge). Graf dapat digunakan untuk merepresentasikan berbagai jenis hubungan antara objek, seperti jaringan komputer, jaringan sosial, rute perjalanan, dan lain sebagainya [1].
+Graph ialah struktur data yang terdiri dari himpunan simpul (vertex) yang terhubung oleh himpunan busur (edge). Graf dapat digunakan untuk merepresentasikan berbagai jenis hubungan antara objek, seperti jaringan komputer, jaringan sosial, rute perjalanan, dan lain sebagainya [1].
 
 Jenis Graph:
 - Graf Berarah (Directed Graph), adalah graf yang setiap busurnya memiliki arah tertentu yang menunjukkan hubungan satu arah antara dua simpul.
