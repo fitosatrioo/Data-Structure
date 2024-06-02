@@ -23,25 +23,28 @@ Representasi Graph:
 Pohon atau Tree adalah struktur data hierarkis yang terdiri dari simpul-simpul yang terhubung satu sama lain melalui edge atau busur. Setiap simpul dalam pohon memiliki tepat satu simpul yang disebut sebagai parent (induk), kecuali simpul paling atas yang disebut sebagai root (akar). Setiap simpul dapat memiliki beberapa simpul anak (children).
 
 Komponen Pohon:
-Akar (Root) yang merupakan simpul paling atas dari pohon, yang tidak memiliki simpul induk.
-Simpul Anak (Children) merupakan simpul-simpul yang berada di bawah simpul induk.
-Simpul Induk (Parent) adalah simpul yang berada di atas simpul anak.
-Daun (Leaf): Simpul yang tidak memiliki anak.
-Tingkat (Level )merupakan jarak dari simpul tertentu ke akar, dengan tingkat akar adalah 0.
-Tinggi (Height) ialah jumlah tingkat maksimum dalam pohon, atau jarak maksimum dari akar ke daun terjauh.
+
+- Akar (Root) yang merupakan simpul paling atas dari pohon, yang tidak memiliki simpul induk.
+- Simpul Anak (Children) merupakan simpul-simpul yang berada di bawah simpul induk.
+- Simpul Induk (Parent) adalah simpul yang berada di atas simpul anak.
+- Daun (Leaf): Simpul yang tidak memiliki anak.
+- Tingkat (Level) merupakan jarak dari simpul tertentu ke akar, dengan tingkat akar adalah 0.
+- Tinggi (Height) ialah jumlah tingkat maksimum dalam pohon, atau jarak maksimum dari akar ke daun terjauh.
 
 Tipe-tipe Tree:
-Binary Tree: Setiap simpul memiliki maksimal dua anak.
-Binary Search Tree (BST): Binary tree yang setiap simpulnya memenuhi sifat bahwa nilai di simpul kiri kurang dari nilai simpul itu sendiri, dan nilai di simpul kanan lebih besar dari nilai simpul itu sendiri.
-Balanced Tree: Pohon di mana perbedaan tinggi subtree kiri dan subtree kanan untuk setiap simpul tidak lebih dari 1.
-Binary Heap: Binary tree khusus yang memenuhi sifat tertentu. Misalnya, dalam Max Heap, nilai setiap simpul lebih besar atau sama dengan nilai anak-anaknya.
-AVL Tree: Jenis pohon pencarian biner yang seimbang dan memiliki ketinggian yang terjaga. Setiap kali simpul ditambahkan atau dihapus, pohon menjaga keseimbangan dengan melakukan rotasi tertentu.
+
+1. Binary Tree: Setiap simpul memiliki maksimal dua anak.
+2. Binary Search Tree (BST): Binary tree yang setiap simpulnya memenuhi sifat bahwa nilai di simpul kiri kurang dari nilai simpul itu sendiri, dan nilai di 3. simpul kanan lebih besar dari nilai simpul itu sendiri.
+3. Balanced Tree: Pohon di mana perbedaan tinggi subtree kiri dan subtree kanan untuk setiap simpul tidak lebih dari 1.
+4. Binary Heap: Binary tree khusus yang memenuhi sifat tertentu. Misalnya, dalam Max Heap, nilai setiap simpul lebih besar atau sama dengan nilai anak-anaknya.
+5. AVL Tree: Jenis pohon pencarian biner yang seimbang dan memiliki ketinggian yang terjaga. Setiap kali simpul ditambahkan atau dihapus, pohon menjaga keseimbangan dengan melakukan rotasi tertentu.
 
 Operasi pada Tree:
-Traversing (Penjelajahan): Melakukan pemrosesan data pada setiap simpul dalam pohon dengan urutan tertentu, seperti pre-order, in-order, dan post-order.
+
+a. Traversing (Penjelajahan): Melakukan pemrosesan data pada setiap simpul dalam pohon dengan urutan tertentu, seperti pre-order, in-order, dan post-order.
 Pencarian: Mencari elemen tertentu dalam pohon.
-Penambahan dan Penghapusan: Menambahkan atau menghapus elemen dari pohon.
-Membangun Tree: Membangun pohon dari data yang diberikan.
+b. Penambahan dan Penghapusan: Menambahkan atau menghapus elemen dari pohon.
+c. Membangun Tree: Membangun pohon dari data yang diberikan.
 
 
 
@@ -505,7 +508,6 @@ Dalam traversal post-order, anak kiri dikunjungi terlebih dahulu, diikuti oleh a
 
 ## Kesimpulan
 
-#### Rekursif:
 
 Graph dan Tree adalah struktur data yang esensial dengan beragam aplikasi praktis. Graph sangat fleksibel dan digunakan untuk memodelkan hubungan kompleks di berbagai domain, sementara Tree menawarkan struktur hierarkis yang efisien untuk pencarian dan pengelolaan data. Pemahaman mendalam tentang konsep, jenis, dan algoritma yang terkait dengan graph dan tree sangat penting bagi siapa saja yang terlibat dalam pengembangan perangkat lunak, analisis data, dan ilmu komputer pada umumnya.
 
