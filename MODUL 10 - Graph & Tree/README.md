@@ -6,7 +6,7 @@
 ## Dasar Teori
 
 ## Graph
-Graf ialah struktur data yang terdiri dari himpunan simpul (vertex) yang terhubung oleh himpunan busur (edge). Graf dapat digunakan untuk merepresentasikan berbagai jenis hubungan antara objek, seperti jaringan komputer, jaringan sosial, rute perjalanan, dan lain sebagainya.
+Graf ialah struktur data yang terdiri dari himpunan simpul (vertex) yang terhubung oleh himpunan busur (edge). Graf dapat digunakan untuk merepresentasikan berbagai jenis hubungan antara objek, seperti jaringan komputer, jaringan sosial, rute perjalanan, dan lain sebagainya [1].
 
 Jenis Graph:
 - Graf Berarah (Directed Graph), adalah graf yang setiap busurnya memiliki arah tertentu yang menunjukkan hubungan satu arah antara dua simpul.
@@ -20,7 +20,7 @@ Representasi Graph:
 2. Daftar Ketetanggaan (Adjacency List): Menggunakan daftar (array, linked list, atau struktur data lainnya) yang menyimpan daftar tetangga dari setiap simpul.
 
 ## Tree
-Pohon atau Tree adalah struktur data hierarkis yang terdiri dari simpul-simpul yang terhubung satu sama lain melalui edge atau busur. Setiap simpul dalam pohon memiliki tepat satu simpul yang disebut sebagai parent (induk), kecuali simpul paling atas yang disebut sebagai root (akar). Setiap simpul dapat memiliki beberapa simpul anak (children).
+Pohon atau Tree adalah struktur data hierarkis yang terdiri dari simpul-simpul yang terhubung satu sama lain melalui edge atau busur. Setiap simpul dalam pohon memiliki tepat satu simpul yang disebut sebagai parent (induk), kecuali simpul paling atas yang disebut sebagai root (akar) [1]. Setiap simpul dapat memiliki beberapa simpul anak (children).
 
 Komponen Pohon:
 
@@ -349,8 +349,7 @@ inputan Pengguna:
 
 #### Output:
 
-![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
-
+![Screenshot (1425)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/4045b7b4-e3ed-4587-9746-87d686c504b4)
 
 
 
@@ -488,7 +487,7 @@ Program ini adalah implementasi pohon biner menggunakan bahasa pemrograman C++. 
 - menambahkan simpul baru ke pohon berdasarkan nilai data. Jika pohon masih kosong (akar NULL), simpul baru akan menjadi akar pohon. Jika tidak, data akan dibandingkan dengan data simpul saat ini untuk menentukan apakah simpul baru akan ditempatkan di anak kiri atau anak kanan.
 
 Traversal Pohon
-Traversal pohon adalah proses mengunjungi setiap simpul dalam pohon dengan urutan tertentu. Program ini mendukung tiga jenis traversal:
+Traversal pohon adalah proses mengunjungi setiap simpul dalam pohon dengan urutan tertentu [2]. Program ini mendukung tiga jenis traversal:
 
 1. Pre-order:
 Dalam traversal pre-order, simpul saat ini dikunjungi terlebih dahulu, diikuti oleh anak kiri, kemudian anak kanan.
@@ -502,7 +501,18 @@ Dalam traversal post-order, anak kiri dikunjungi terlebih dahulu, diikuti oleh a
 
 #### Output:
 
-![Screenshot (1319)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/41ea558a-75c3-4adb-8063-7bed034b5af3)
+a. Menambahkan Simpul
+![Screenshot (1426)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/fc0926f9-18c7-494f-bc1f-543bbaabb177)
+
+b. Pre-Order
+![Screenshot (1427)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/960bea9f-a39f-496f-9f29-ad5c2f63fc7b)
+
+c. In-Order
+![Screenshot (1428)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/efd6e5bd-8054-4637-a831-3438fb21b841)
+
+d. Post-Order
+![Screenshot (1429)](https://github.com/fitosatrioo/Data-Structure-Practice/assets/109860844/8508618e-c4f2-46b1-83c2-76b2e8c6034f)
+
 
 
 
@@ -513,6 +523,7 @@ Graph dan Tree adalah struktur data yang esensial dengan beragam aplikasi prakti
 
 ## Referensi
 
-[1] J. Wise, J. Bader, C. Wong, J. Aldrich, É. Tanter, and J. Sunshine, "Gradual verification of recursive heap data structures", Proc. ACM Program. Lang. , vol. 4, no. 228, pp. 1-28, Oct. 2020.
+[1]. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to Algorithms, 3rd ed. Cambridge, MA: MIT Press, 2009.
 
-[2] A. Nurcholis, S. Batara, and M. Octamanullah, "Penerapan struktur data Heap Priority Queue pada algoritma Djikstra untuk mendapatkan kompleksitas O((n + m)log n)", Jurnal Laboratorium Ilmu dan Rekayasa Komputasi, vol. 1, no. 1, pp. 1-4, 2023.
+[3] M. T. Goodrich, R. Tamassia, and M. H. Goldwasser, Data Structures and Algorithms in Java, 6th ed. Hoboken, NJ: Wiley, 2014.
+
